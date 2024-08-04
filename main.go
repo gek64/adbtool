@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"github.com/gek64/gek/gToolbox"
 	"github.com/urfave/cli/v2"
@@ -20,13 +21,6 @@ var (
 	cliUID           int
 	cliFile          string
 )
-
-func init() {
-	err := gToolbox.CheckToolbox([]string{"adb"})
-	if err != nil {
-		log.Fatalln(err)
-	}
-}
 
 func main() {
 	cmds := []*cli.Command{
@@ -220,6 +214,11 @@ func main() {
 func run() (err error) {
 	var apps []string
 
+	err = gToolbox.CheckToolbox([]string{"adb"})
+	if err != nil {
+		return err
+	}
+
 	if cliAll {
 		apps, err = GetAppListFromADB()
 		if err != nil {
@@ -231,7 +230,7 @@ func run() (err error) {
 			log.Panicln(err)
 		}
 	} else {
-		log.Fatalln("you need to provide the apps file using -f or select all apps using -a")
+		return errors.New("you need to provide the apps file using -f or select all apps using -a")
 	}
 
 	for _, app := range apps {
