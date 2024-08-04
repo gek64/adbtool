@@ -1,0 +1,7 @@
+// you can use package start with "package:"
+package:com.mail.v1
+// you can use package start without "package:"
+com.sms.v2
+// comment start with "//"
+com.phone.v3
+com.photo.v4
