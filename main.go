@@ -235,25 +235,46 @@ func run() (err error) {
 
 	for _, app := range apps {
 		if cliClear {
-			return PMClear(app)
+			err = PMClear(app)
+			if err != nil {
+				fmt.Println(err)
+			}
 		}
 		if cliUninstall {
-			return PMUninstall(app)
+			err = PMUninstall(app)
+			if err != nil {
+				fmt.Println(err)
+			}
 		}
 		if cliUninstallUser {
-			return PMUninstallUser(app, cliUID)
+			err = PMUninstallUser(app, cliUID)
+			if err != nil {
+				fmt.Println(err)
+			}
 		}
 		if cliReinstall {
-			return PMReinstall(app)
+			err = PMReinstall(app)
+			if err != nil {
+				fmt.Println(err)
+			}
 		}
 		if cliDisable {
-			return PMDisable(app)
+			err = PMDisable(app)
+			if err != nil {
+				fmt.Println(err)
+			}
 		}
 		if cliDisableUser {
-			return PMDisableUser(app, cliUID)
+			err = PMDisableUser(app, cliUID)
+			if err != nil {
+				fmt.Println(err)
+			}
 		}
 		if cliEnable {
-			return PMEnable(app)
+			err = PMEnable(app)
+			if err != nil {
+				fmt.Println(err)
+			}
 		}
 	}
 	return nil
