@@ -1,8 +1,8 @@
 // 音乐
 com.android.mediacenter
 
-// 百度输入法华为版(安装完成其他输入法后操作)
-//com.baidu.input_huawei
+// 百度输入法华为版
+com.baidu.input_huawei
 
 // 华为音乐
 com.huawei.music
@@ -465,14 +465,5 @@ com.huawei.hwdockbar
 // 智能信息
 com.huawei.hbm
 
-// HMS Core
-com.huawei.hwid
-
-
-
-
-
-
-
-
-
+// HMS Core(卸载会导致app运营商登录失败)
+//com.huawei.hwid

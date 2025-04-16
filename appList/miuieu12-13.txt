@@ -1,0 +1,248 @@
+// 小米互联通信服务
+com.xiaomi.mi_connect_service
+
+// ?
+//com.xiaomi.micloud.sdk
+
+// 耗电检测
+//com.xiaomi.powerchecker
+
+// 小米账号
+com.xiaomi.account
+
+// 相机标定
+com.xiaomi.cameratools
+
+// 米币支付
+com.xiaomi.payment
+
+// 小米SIM卡激活服务
+com.xiaomi.simactivate.service
+
+// Bluetooth Test Service
+//com.xiaomi.bttester
+
+// 小米服务框架(卸载会无限重启)
+//com.xiaomi.xmsf
+
+// 小米服务框架 logger
+//com.xiaomi.xmsfkeeper
+
+// MIUI Bluetooth, 卸载不影响蓝牙功能, 依赖于小米服务框架
+com.xiaomi.bluetooth
+
+// 查找设备
+//com.xiaomi.finddevice
+
+// GPU Tuner
+com.xiaomi.joyose
+
+// 小米设置
+//com.xiaomi.misettings
+
+// MIUI+
+com.xiaomi.mirror
+
+// TAMservice
+com.xiaomi.otrpbroker
+
+// 鲁班(MTB)
+com.xiaomi.mtb
+
+// 扫一扫
+com.xiaomi.scanner
+
+// 卫星定位
+//com.xiaomi.bsp.gps.nps
+
+// 小米文档查看器（WPS定制）
+cn.wps.moffice_eng.xiaomi.lite
+
+// ?
+//com.android.wifi.resources.xiaomi
+
+// FIDO UAF Client
+//com.fido.xiaomi.uafclient
+
+// Xiaomi.eu 扩展
+//eu.xiaomi.ext
+
+// 屏幕录制
+com.miui.screenrecorder
+
+// 电量和性能
+//com.miui.powerkeeper
+
+// 收音机
+com.miui.fm
+
+// 收音机调频服务
+com.miui.fmservice
+
+// 应用程序扩展服务(密码管理器, 需要小米账户登录)
+com.miui.contentcatcher
+
+//应用包管理组件
+//com.miui.packageinstaller
+
+// Bokeh(小米相机文件模式)
+com.miui.extraphoto
+
+// 系统服务组件
+//com.miui.securityadd
+
+// 相册
+//com.miui.gallery
+
+// 手机管家
+// com.miui.securitycenter
+
+// 安全核心组件
+//com.miui.securitycore
+
+// MIUI安全组件
+//com.miui.guardprovider
+
+// Mi Video
+com.miui.videoplayer
+
+// 备份
+com.miui.backup
+
+// 桌面云备份
+com.miui.cloudbackup
+
+// 通知管理
+//com.miui.notification
+
+// 小米云服务
+com.miui.cloudservice
+com.miui.cloudservice.sysbase
+
+// MiCloudSync
+com.miui.micloudsync
+
+// MIUI质量服务
+com.miui.daemon
+
+// 小米换机
+com.miui.huanji
+
+// MConnService(虚拟 sim 核心服务)
+com.miui.vsimcore
+
+// 常用语
+//com.miui.phrase
+
+// textaction
+//com.miuix.editor
+
+// 音乐
+com.miui.player
+
+// 服务与反馈
+com.miui.miservice
+
+// 系统基础组件
+//com.miui.system
+//com.miui.systemui.devices.overlay
+//com.miui.systemui.carriers.overlay
+//com.miui.systemui.overlay.devices.android
+//com.android.systemui.overlay.miui
+//com.android.server.telecom.overlay.miui
+//com.android.settings.overlay.miui
+//android.miui.overlay
+
+
+// 垃圾清理
+com.miui.cleaner
+
+// 指南针
+com.miui.compass
+
+// Hardware tests
+com.miui.cit
+
+// ?
+//com.miui.rom
+
+// 智能助理
+com.miui.personalassistant
+
+// AudioEffect
+com.miui.audioeffect
+
+// 音质音效
+//com.miui.misound
+
+// 用户反馈
+com.miui.bugreport
+
+// 人脸解锁
+//com.miui.face
+//com.miui.face.overlay.miui
+
+// 小米互传
+com.miui.mishare.connectivity
+
+// 自由窗口
+//com.miui.freeform
+
+// 小米支付
+com.miui.nextpay
+
+// MipayService
+org.mipay.android.manager
+
+// 笔记
+com.miui.notes
+
+// MIUI SDK
+//com.miui.core
+//com.miui.core.internal.editor.services
+//com.miui.core.internal.services
+
+// 小米云盘
+com.miui.newmidrive
+
+// 系统桌面
+//com.miui.home
+
+// 截屏
+//com.miui.screenshot
+
+// 悬浮球
+com.miui.touchassistant
+
+// 计算器
+//com.miui.calculator
+
+// 壁纸
+//com.miui.miwallpaper
+
+// 天气
+com.miui.weather2
+
+// 系统界面组件
+//miui.systemui.plugin
+
+// 权限管理服务
+//com.lbe.security.miui
+
+// 投屏
+com.milink.service
+
+// 浏览器
+com.mi.globalbrowser
+
+// 健康
+com.mi.health
+
+// 文件管理
+com.android.fileexplorer
+
+// 电子邮件
+com.android.email
+
+// 小米画报
+com.mfashiongallery.emag
