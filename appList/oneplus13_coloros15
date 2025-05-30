@@ -222,7 +222,7 @@ com.heytap.pictorial
 com.baidu.input_oppo
 
 # 智能识别陌生号码
-com.ted.number
+#com.ted.number
 
 # 后台进程管理器
 #com.oplus.athena
