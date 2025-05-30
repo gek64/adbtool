@@ -1,0 +1,576 @@
+#!/usr/bin/env sh
+# 使用正则匹配查看 oplus|oppo|coloros|heytap|opos|^(?![\n /#]).*
+# 开发者选项中开启 禁止权限监控
+
+# 虚拟通信
+#com.oplus.virtualcomm
+
+# DeliverServer
+com.oppo.instant.local.service
+
+# 蓝牙遮罩
+#com.oplus.framework_bluetooth.overlay
+
+# 多窗口-分屏功能
+#com.oplus.pscanvas
+
+# 耳机返听
+#com.coloros.karaoke
+
+# atlasService-分应用音量调节
+#com.oplus.atlas
+
+# 服务治理框架
+#com.oplus.pantanal.ums
+
+# 手势体感服务
+#com.oplus.exserviceui
+
+# OpenCapabilityService-支付安全相关服务
+com.coloros.ocs.opencapabilityservice
+
+# 头像象编辑软件
+com.oplus.omoji
+
+# 账号中心
+com.oplus.account
+
+# 反馈工具箱
+com.oplus.logkit
+
+# 语音助手-唤醒服务
+com.oplus.ovoicemanager.wakeup
+
+# 系统 ui 插件
+#com.oplus.systemui.plugins
+
+# 应用增强服务 游戏中心相关
+com.oplus.cosa
+
+# OPPO 系统桌面
+#com.android.launcher
+
+# 配置更新 运营商相关
+#com.oplus.cota
+
+# 安卓系统
+#oplus
+
+# 开关控制
+com.google.android.accessibility.switchaccess
+
+# AI 服务引擎
+com.oplus.aiunit
+
+# 灵感相框
+#com.oplus.keyguard.clock.gallery
+
+# 设备安全服务
+com.oplus.stdsp
+
+# 全局搜索
+com.heytap.quicksearchbox
+
+# 虚拟通信资源
+com.android.virtualmachine.res
+
+# 软件商店
+com.heytap.market
+
+# 系统记录相关
+com.oplus.lfeh
+
+# 护眼模式
+#com.oplus.eyeprotect
+
+# 智慧云加速
+com.oplus.acc.gac
+
+# 蓝牙测试模式
+#com.oplus.bttestmode
+
+# 云服务
+com.heytap.cloud
+
+# 数字车钥匙服务
+#com.oplus.cardigitalkey
+
+# OpenID
+com.heytap.openid
+
+# 安全键盘
+#com.oplus.securitykeyboard
+
+# 态度杂志
+#com.oplus.keyguard.clock.magazine
+
+# 主题基础服务
+com.oplus.themestore
+
+# 融合搜索服务
+com.oplus.dmp
+
+# 密码本
+com.coloros.codebook
+
+# 通信网络工模
+#com.oplus.engineernetwork
+
+# 系统框架遮罩
+#com.oplus.framework.res.overlay
+
+# 广告服务
+com.opos.ads
+
+# 系统框架遮罩 蓝牙相关
+com.android.bluetooth.oplus.overlay
+
+# 系统框架遮罩 紧急情况播报相关
+com.android.cellbroadcastreceiver.overlay.common
+
+# 百变引擎
+#com.oplus.uiengine
+
+# 手机管家
+com.coloros.phonemanager
+
+# 软件更新
+#com.oplus.ota
+
+# 简易模式
+com.coloros.scenemode
+
+# 安全中心资源
+#com.android.safetycenter.resources
+
+# 健康数据共享
+com.android.healthconnect.controller
+
+# 应用安装器
+com.oplus.appdetail
+
+# 网络服务
+#com.oplus.nas
+
+# 流量管理
+#com.oplus.trafficmonitor
+
+# Cross Device Broker
+com.microsoftsdk.crossdeviceservicebroker
+
+# blur effects
+#com.oplus.blur
+
+# 电子保卡
+com.coloros.activation
+
+# 快应用
+com.nearme.instant.platform
+
+# 系统插件
+#com.oplus.plugin
+
+# 健康数据平台
+com.oplus.healthservice
+
+# 人像绘影
+com.oplus.portrait
+
+# 数字健康与家人守护(未成年人模式)
+com.coloros.digitalwellbeing
+
+# 应用服务
+#com.oplus.appplatform
+
+# 智慧能力服务 电池相关
+#com.oplus.deepthinker
+
+# 安全中心资源遮罩
+#com.android.safetycenter.resources.overlay
+
+# OPPO 移动服务
+com.heytap.htms
+
+# CrashBox
+#com.oplus.crashbox
+
+# 设备快连
+com.heytap.accessory
+
+# 多彩引擎
+com.heytap.colorfulengine
+
+# 日志相关
+com.oplus.obrain
+
+# 设备互联服务
+com.oplus.linker
+
+# OneTrace 日志相关
+com.oplus.onetrace
+
+# 语音助手相关
+com.oplus.ovoicemanager
+
+# 通知管理
+#com.oplus.notificationmanager
+
+# 乐划锁屏
+com.heytap.pictorial
+
+# runtime resource overlay
+#com.oplus.framework.rro.oneplus
+
+# 手势体感
+#com.oplus.gesture
+
+# 百度输入法定制版(安装替代输入法后删除)
+com.baidu.input_oppo
+
+# 智能识别陌生号码
+com.ted.number
+
+# 后台进程管理器
+#com.oplus.athena
+
+# 定位服务
+#com.oplus.location
+
+# 工程模式
+#com.oplus.engineermode
+
+# CTAutoRegist 短信相关
+#com.oppo.ctautoregist
+
+# 遮罩
+#com.oplus.overlay.comms
+
+# Ether
+#com.oplus.ether
+
+# MapComFrame
+#com.coloros.mapcom.frame
+
+# Gestural Navigation Bar
+com.android.internal.systemui.navbar.gestural
+
+# Notes Role enabled
+com.android.role.notes.enabled
+
+# 安全支付
+com.oplus.pay
+
+# 图形增强服务
+com.oplus.colorx
+
+# 运营商位置信息
+#com.oplus.locationproxy
+
+# 遮罩
+#oplus.frameworkres.overlay.display.product
+
+# 小布识屏
+com.coloros.directui
+
+# 识屏服务
+com.coloros.colordirectservice
+
+# 智慧控件
+com.oplus.aiwidgets
+
+# 遮罩
+#com.android.wifi.resources.overlay.oplus
+
+# 新通话
+#com.newcall
+
+# 智能应用检测
+#com.oplus.thirdkit
+
+# 经典主题
+#com.oplus.keyguard.clock.base
+
+# 应用分身
+#com.oplus.multiapp
+
+# 5G NR
+#com.oplus.nrMode
+
+# 系统升级服务
+#com.oplus.sau
+
+# 系统升级服务助手
+#com.oplus.sauhelper
+
+# 自定义核心app
+#com.oplus.customize.coreapp
+
+# 权限管理
+#com.oplus.securitypermission
+
+# 无线设置
+#com.oplus.wirelesssettings
+
+# 息屏
+#com.oplus.aod
+
+# MediaTurbo
+#com.oplus.mediaturbo
+
+# 网络健康服务
+#com.oplus.nhs
+
+# 远程守护服务
+com.coloros.remoteguardservice
+
+# 诊断工具服务
+#com.oplus.postmanservice
+
+# 安全中心
+#com.oplus.safecenter
+
+# 天气服务
+#com.coloros.weather.service
+
+# 支付保护
+com.coloros.securepay
+
+# 账号服务
+com.heytap.vip
+
+# 智慧决策服务
+com.oplus.metis
+
+# 系统服务 截屏等
+com.oplus.exsystemservice
+
+# ColorOS Smart Features
+#com.aiunit.aon
+
+# 悬浮球
+com.coloros.floatassistant
+
+# 儿童模式
+com.coloros.childrenspace
+
+# Olc 日志相关
+com.oplus.olc
+
+# 小布扫一扫
+com.coloros.ocrscanner
+
+# 广告隐私权-privacy sandbox 组件
+com.android.adservices.api
+
+# 智能解锁
+#com.coloros.smartlock
+
+# 智能侧边栏
+#com.coloros.smartsidebar
+
+# AI 语音摘记
+com.coloros.accessibilityassistant
+
+# 跨设备文件管理
+com.oplus.dfs
+
+# 壁纸
+#com.oplus.wallpapers
+
+# 系统卡包
+com.heytap.tas
+
+# 截屏
+#com.oplus.screenshot
+
+# CarLink
+com.heytap.opluscarlink
+
+# 一加互传
+com.coloros.oshare
+
+# WifiQoe
+#com.oplus.tai.wifiqoe
+
+# 连接至 Windows
+com.microsoft.appmanager
+
+# Eid-Service
+com.oplus.eid
+
+# DSF
+com.oplus.ndsf
+
+# wifi 密码备份云端
+com.oplus.wifibackuprestore
+
+# 媒体播放器
+com.coloros.video
+
+# 相册
+#com.coloros.gallery3d
+
+# 权限控制器遮罩
+#com.google.android.permissioncontroller.overlay.oplus
+
+# 系统分身
+#com.coloros.systemclone
+
+# Assistant
+com.coloros.lockassistant
+
+# 翻译服务
+com.coloros.translate.engine
+
+# 无网畅聊
+com.oplus.beaconlink
+
+# 私密保险箱
+com.oplus.encryption
+
+# 骚扰拦截
+#com.oplus.blacklistapp
+
+# 安全事件
+com.coloros.securityguard
+
+# 帮助与反馈
+com.coloros.operationManual
+
+# 号码归属地
+com.oplus.phonenoareainquire
+
+# 数据基础服务 User Experience Program
+com.oplus.statistics.rom
+
+# audiomonitor
+#com.oplus.audiomonitor
+
+# 遮罩
+#com.android.connectivity.resources.overlay.oplus
+
+# 耗电监控服务
+com.oplus.powermonitor
+
+# SmartEngine
+#com.oplus.smartengine
+
+# AudioEffectCenter
+#com.oplus.audio.effectcenter
+
+# 屏幕录制
+#com.oplus.screenrecorder
+
+# 工程相机
+#com.oplus.engineercamera
+
+# 外设融合框架
+#com.oplus.vdc
+
+# 浏览器
+com.heytap.browser
+
+# 智慧数据增强服务
+com.coloros.sceneservice
+
+# 动感画册
+#com.oplus.keyguard.clock.graffiti
+
+# 设备空间
+#com.heytap.mydevices
+
+# 速览(负一屏)
+com.coloros.assistantscreen
+
+# privacy sandbox 组件
+com.android.ondevicepersonalization.services
+
+# 电池
+#com.oplus.battery
+
+# 系统消息
+com.heytap.mcs
+
+# 遮罩
+#com.android.safetycenter.styles.overlay
+
+# 手机投屏
+#com.oplus.cast
+
+# 屏幕共享(需要欢太账户登录)
+com.coloros.sharescreen
+
+# 随身工作台(需要欢太账户登录)
+com.oplus.owork
+
+# Nfc Engineer Test
+#com.oplus.nfcengineertest
+
+# Device Integration Service(Microsoft Link to Windows 相关)
+com.microsoft.deviceintegrationservice
+
+# 查找(需要欢太账户登录)
+com.coloros.findmyphone
+
+# virtualcomm2
+#com.oplus.virtualcomm2
+
+# Owk服务
+#com.oplus.owkservice
+
+# 相机
+#com.oplus.camera
+
+# 软件包安装程序
+#com.android.packageinstaller
+
+# 图片描述
+com.oplus.viewtalk
+
+# 开机注册
+#com.coloros.bootreg
+
+# 子系统服务框架(依赖 com.oplus.virtualcomm)
+#com.oplus.subsys
+
+# 壁纸与个性化
+#com.oplus.uxdesign
+
+# Car+ 车联
+com.oplus.ocar
+
+# QualityProtect
+com.oplus.qualityprotect
+
+# 小布助手
+com.heytap.speechassist
+
+# 语音设置
+#com.yuemeng.speechsuite
+
+# 智慧出行
+com.oplus.travelengine
+
+# 升级指南
+com.oplus.upgradeguide
+
+# 微信支付生物识别身份认证
+com.tencent.soter.soterserver
+
+# 更新服务
+#com.oplus.romupdate
+
+# SOS 紧急联络
+#com.oplus.sos
+
+# 遮罩
+#com.google.android.overlay.gmsconfig.nosafetycenter
+
+# 系统可卸载应用找回
+#com.oplus.apprecover
+
+# 遮罩
+#com.android.carrierconfig.oplus.overlay
+
+# OplusMediaController
+#com.oplus.mediacontroller
