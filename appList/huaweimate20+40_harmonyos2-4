@@ -1,0 +1,471 @@
+#!/usr/bin/env sh
+
+# 音乐
+com.android.mediacenter
+
+# 百度输入法华为版
+com.baidu.input_huawei
+
+# 小艺输入法
+com.huawei.ohos.inputmethod
+
+# 华为音乐
+com.huawei.music
+
+# 滚动截屏(v4.0.0.121 卸载后无法使用截图功能)
+#com.huawei.HwMultiScreenShot
+
+# AirLink
+com.huawei.airlink
+
+# 悬浮导航(可选)
+com.huawei.android.FloatTasks
+
+# 无线投屏(可选)
+com.huawei.android.airsharing
+
+# HwChrService
+com.huawei.android.chr
+
+# 查找设备
+com.huawei.android.findmyphone
+
+# HwAps (Advanced Power Saving 勿操作)
+#com.huawei.android.hwaps
+
+# 软件更新(勿操作)
+#com.huawei.android.hwouc
+
+# 升级向导
+#com.huawei.android.hwupgradeguide
+
+# HwInstantOnline
+com.huawei.android.instantonline
+
+# 华为分享(勿操作)
+#com.huawei.android.instantshare
+
+# Huawei Share(华为分享组件,勿操作)
+#com.huawei.android.internal.app
+
+# K 歌特效
+com.huawei.android.karaoke
+
+# 华为桌面
+#com.huawei.android.launcher
+
+# 工程菜单(电话拨号盘 *#*#2846579#*#* 勿操作)
+#com.huawei.android.projectmenu
+
+# 推送服务(System update OTA notification push service 勿操作)
+#com.huawei.android.pushagent
+
+# 主题(系统核心应用)
+#com.huawei.android.thememanager
+
+# WLAN 直连
+com.huawei.android.wfdft
+
+# 华为应用市场(卸载或禁用以绕过纯净模式安装应用限制)
+com.huawei.appmarket
+
+# AREngineServer
+com.huawei.arengine.service
+
+# 关键资产同步
+com.huawei.assetsync
+
+# 关键资产同步管理服务
+com.huawei.assetsyncservice
+
+# 音频产品管家
+com.huawei.audioaccessorymanager
+
+# BehaviorAuth
+#com.huawei.behaviorauth
+
+# 通过蓝牙导入
+#com.huawei.bluetooth
+
+# 骨声纹识别
+com.huawei.bonevoiceui
+
+# 浏览器
+com.huawei.browser
+
+# CA
+#com.huawei.ca
+
+# 相机
+#com.huawei.camera
+
+# HwCameraKit
+#com.huawei.camerakit.impl
+
+# HwCoAuthService
+com.huawei.coauthservice
+
+# 联系人同步
+com.huawei.contacts.sync
+
+# 取词
+com.huawei.contentsensor
+
+# 智慧协同
+com.huawei.controlcenter
+
+# DEF
+#com.huawei.def
+
+# 我的文件
+com.huawei.desktop.explorer
+
+# 系统界面
+#com.huawei.desktop.systemui
+
+# TrustedDeviceAuth
+#com.huawei.deviceauth
+
+# HwGroupManager
+#com.huawei.devicegroupmanage
+
+# 分布式设备管理
+com.huawei.devicemanager
+
+# HwDistributedKeyManager
+#com.huawei.distributed.kms
+
+# 分布式设备管理
+#com.huawei.dmsdp
+
+# SIM 卡管理(勿操作)
+#com.huawei.dsdscardmanager
+
+# HwEasyGo
+com.huawei.easygo
+
+# 快应用中心
+com.huawei.fastapp
+
+# FeatureFramework
+com.huawei.featurelayer.featureframework
+
+# 地图服务
+com.huawei.featurelayer.sharedfeature.map
+
+# FIDO UAF Client
+#com.huawei.fido.uafclient
+
+# 文件管理
+com.huawei.filemanager
+
+# com.huawei.ohos.foundation.FoundationApplication
+#com.huawei.harmonyos.foundation
+
+# com.huawei.hff(ffmpeg,勿操作)
+#com.huawei.hff
+
+# HUAWEI HiAI Base
+com.huawei.hiaction
+
+# 华为智慧引擎
+com.huawei.hiai
+
+# Huawei HiCar(卡片服务)
+com.huawei.hicar
+
+# HiCard(汽车服务)
+com.huawei.hicard
+
+# 云空间服务
+com.huawei.hicloud
+
+# 云空间
+com.huawei.hidisk
+
+# 智慧生活基础服务
+com.huawei.hilink.framework
+
+# 华为视频
+com.huawei.himovie
+
+# HiMoviePlayerPlus
+com.huawei.himovie.partner1
+
+# HiMoviePlayerPlus
+com.huawei.himovie.partner2
+
+# 智慧识屏
+com.huawei.hitouch
+
+# hiview
+#com.huawei.hiview
+
+# HiViewTunnel
+#com.huawei.hiviewtunnel
+
+# OTA Engine
+#com.huawei.hms.dupdateengine
+
+# FIDO UAF ASM
+#com.huawei.hwasm
+
+# HwBlockChain(区块链)
+com.huawei.hwblockchain
+
+# HwDDMP
+#com.huawei.hwddmp
+
+# 智能检测
+com.huawei.hwdetectrepair
+
+# HwDiagnosis
+com.huawei.hwdiagnosis
+
+# 智慧多窗
+#com.huawei.hwdockbar
+
+# HwPanPayService(息屏支付)
+com.huawei.hwpanpayservice
+
+# HwStartupGuide
+#com.huawei.hwstartupguide
+
+# 畅连服务
+com.huawei.hwvoipservice
+
+# iAware
+#com.huawei.iaware
+
+# 设备连接服务
+#com.huawei.iconnect
+
+# 杜比全景声
+#com.huawei.imedia.dolby
+
+# Histen
+#com.huawei.imedia.sws
+
+# HwImsService
+#com.huawei.ims
+
+# 智慧助手·今天
+com.huawei.intelligent
+
+# 下载语言
+#com.huawei.languagedownloader
+
+# 位置服务
+#com.huawei.lbs
+
+# 华山
+com.huawei.livewallpaper.matetwenty
+
+# 杂志锁屏
+com.huawei.magazine
+
+# 媒体播控中心
+#com.huawei.mediacontroller
+
+# MMITest
+#com.huawei.mmitest
+
+# 手势服务
+#com.huawei.motionservice
+
+# 综合传感信息处理平台
+#com.huawei.msdp
+
+# HwAudioKit
+#com.huawei.multimedia.audioengine
+
+# hivideoplayengine
+#com.huawei.multimedia.hivideoplayengine
+
+# 数据管理服务
+#com.huawei.nb.service
+
+# HwNearby(华为附近服务,鸿蒙3.0卸载会导致导航手势失效)
+#com.huawei.nearby
+
+# 号码识别
+#com.huawei.numberidentity
+
+# 相机
+#com.huawei.ohos.camera
+
+# 服务中心
+com.huawei.ohos.famanager
+
+# HiWindow
+#com.huawei.ohos.hiwindow
+
+# 图库
+#com.huawei.ohos.photos
+
+# 全局搜索数据服务
+com.huawei.ohos.search
+
+# 小艺建议
+com.huawei.ohos.suggestion
+
+# OneHopSvcClient
+#com.huawei.onehopsvcclient
+
+# OneHopSvcHost
+#com.huawei.onehopsvchost
+
+# 健康使用手机(Parental controls)
+com.huawei.parentcontrol
+
+# 华为分享(HiSuite service)
+com.huawei.pcassistant
+
+# 华为智能建议
+com.huawei.pengine
+
+# 通话录音
+#com.huawei.phone.recorder
+
+# 我的华为(HiCare app)
+com.huawei.phoneservice
+
+# HAware(Huawei Power management,勿操作)
+#com.huawei.powergenie
+
+# 华为打印(可选)
+com.huawei.printservice
+
+# 隐私空间(可选)
+com.huawei.privatespace
+
+# Huawei Profile Services
+#com.huawei.profile
+
+# 华为 RCS 服务(华为手机免费短信)
+com.huawei.rcsserviceapplication
+
+# HwHiAIDSEngine(华为智慧引擎)
+com.huawei.recsys
+
+# RegService(华为注册服务)
+com.huawei.regservice
+
+# RemotePassword
+#com.huawei.remotepassword
+
+# 智慧视觉(图片翻译,图像识别,可选)
+com.huawei.scanner
+
+# 屏幕录制(可选)
+com.huawei.screenrecorder
+
+# 智慧搜索(搜索服务,可选)
+com.huawei.search
+
+# 融合搜索服务
+com.huawei.searchservice
+
+# Huawei Secure IME(华为安全键盘)
+#com.huawei.secime
+
+# 安全组件(隐私空间组件,可选)
+com.huawei.securitymgr
+
+# HwSecurityPluginBase
+#com.huawei.securitypluginbase
+
+# 华为安全公共服务(安全服务密码,人脸识别,勿操作)
+#com.huawei.securityserver
+
+# 天际通数据服务
+com.huawei.skytone
+
+# 智能截屏(可选)
+#com.huawei.smartshot
+
+# 地理围栏服务(精准位置识别)
+com.huawei.spaceservice
+
+# 情景智能(预禁用)
+com.huawei.suggestion
+
+# HwSynergy(华为协同)
+com.huawei.synergy
+
+# 手机管家(勿操作)
+#com.huawei.systemmanager
+
+# 系统服务
+#com.huawei.systemserver
+
+# 智能解锁(可选)
+com.huawei.trustagent
+
+# 设备认证服务
+#com.huawei.trustcircle
+
+# HwTrustedThingsAuth(可信认证跳过)
+#com.huawei.trustedthingsauth
+
+# 支付保护中心
+com.huawei.trustspace
+
+# 智慧语音
+com.huawei.vassistant
+
+# 华为钱包
+com.huawei.wallet
+
+# WalletSDK
+com.huawei.wallet.sdk.walletsdk
+
+# Huawei WebView
+#com.huawei.webview
+
+# HwWifiproBqeService
+#com.huawei.wifiprobqeservice
+
+# 讯飞语音引擎
+com.iflytek.speechsuite
+
+# HiMoviePlayerPlus(华为视频-搜狐视频模块)
+com.sohu.sohuvideo.emplayer
+
+# HiMoviePlayerPlus(华为视频-腾讯视频模块)
+com.tencent.qqlivehuawei
+
+# MediaLibrary(鸿蒙媒体库)
+#ohos.media.medialibrary
+
+# harmonyos4
+
+# HMS 服务框架
+com.huawei.android.hsf
+
+# 安全隐私中心
+#com.huawei.security.privacycenter
+
+# 安全隐私中心服务卡片
+com.huawei.ohos.security.privacycenter
+
+# 图库服务卡片
+com.huawei.ohos.photos
+
+# 钱包服务卡片
+com.huawei.wallet.facard
+
+# 视频播放器
+com.huawei.himovie.local
+
+# 音乐播放器
+com.huawei.music.local
+
+# 智慧多窗
+com.huawei.hwdockbar
+
+# 智能信息
+com.huawei.hbm
+
+# HMS Core(卸载会导致app运营商登录失败)
+#com.huawei.hwid
