@@ -8,6 +8,7 @@ on:
     paths-ignore:
       - 'docs/**'
       - '.github/**'
+      - 'appList/**'
       - '**.md'
       - 'LICENSE'
   pull_request:
@@ -17,6 +18,7 @@ on:
     paths-ignore:
       - 'docs/**'
       - '.github/**'
+      - 'appList/**'
       - '**.md'
       - 'LICENSE'
   workflow_dispatch:
