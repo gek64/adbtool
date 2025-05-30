@@ -3,7 +3,6 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/gek64/gek/gToolbox"
 	"github.com/urfave/cli/v2"
 	"log"
 	"os"
@@ -17,6 +16,8 @@ var (
 	cliDisable       bool
 	cliDisableUser   bool
 	cliEnable        bool
+	cliSuspend       bool
+	cliUnsuspend     bool
 	cliAll           bool
 	cliUID           int
 	cliFile          string
@@ -192,6 +193,50 @@ func main() {
 				return run()
 			},
 		},
+		{
+			Name:  "suspend",
+			Usage: "suspend apps",
+			Flags: []cli.Flag{
+				&cli.BoolFlag{
+					Name:        "all",
+					Aliases:     []string{"a"},
+					Usage:       "select all apps in device",
+					Destination: &cliAll,
+				},
+				&cli.StringFlag{
+					Name:        "file",
+					Aliases:     []string{"f"},
+					Usage:       "use all apps in a file",
+					Destination: &cliFile,
+				},
+			},
+			Action: func(ctx *cli.Context) (err error) {
+				cliSuspend = true
+				return run()
+			},
+		},
+		{
+			Name:  "unsuspend",
+			Usage: "unsuspend apps",
+			Flags: []cli.Flag{
+				&cli.BoolFlag{
+					Name:        "all",
+					Aliases:     []string{"a"},
+					Usage:       "select all apps in device",
+					Destination: &cliAll,
+				},
+				&cli.StringFlag{
+					Name:        "file",
+					Aliases:     []string{"f"},
+					Usage:       "use all apps in a file",
+					Destination: &cliFile,
+				},
+			},
+			Action: func(ctx *cli.Context) (err error) {
+				cliUnsuspend = true
+				return run()
+			},
+		},
 	}
 
 	// 打印版本函数
@@ -201,7 +246,7 @@ func main() {
 
 	app := &cli.App{
 		Usage:    "ADB Batch Tool",
-		Version:  "v1.00",
+		Version:  "v1.10",
 		Commands: cmds,
 	}
 
@@ -213,11 +258,9 @@ func main() {
 
 func run() (err error) {
 	var apps []string
-
-	err = gToolbox.CheckToolbox([]string{"adb"})
-	if err != nil {
-		return err
-	}
+	var Reset = "\033[0m"
+	var Red = "\033[31m"
+	var Green = "\033[32m"
 
 	if cliAll {
 		apps, err = GetAppListFromADB()
@@ -233,48 +276,39 @@ func run() (err error) {
 		return errors.New("you need to provide the apps file using -f or select all apps using -a")
 	}
 
-	for _, app := range apps {
+	for i, app := range apps {
+		fmt.Println(Green, i+1, app, Reset)
+
 		if cliClear {
 			err = PMClear(app)
-			if err != nil {
-				fmt.Println(err)
-			}
 		}
 		if cliUninstall {
 			err = PMUninstall(app)
-			if err != nil {
-				fmt.Println(err)
-			}
 		}
 		if cliUninstallUser {
 			err = PMUninstallUser(app, cliUID)
-			if err != nil {
-				fmt.Println(err)
-			}
 		}
 		if cliReinstall {
 			err = PMReinstall(app)
-			if err != nil {
-				fmt.Println(err)
-			}
 		}
 		if cliDisable {
 			err = PMDisable(app)
-			if err != nil {
-				fmt.Println(err)
-			}
 		}
 		if cliDisableUser {
 			err = PMDisableUser(app, cliUID)
-			if err != nil {
-				fmt.Println(err)
-			}
 		}
 		if cliEnable {
 			err = PMEnable(app)
-			if err != nil {
-				fmt.Println(err)
-			}
+		}
+		if cliSuspend {
+			err = PMSuspend(app)
+		}
+		if cliUnsuspend {
+			err = PMUnsuspend(app)
+		}
+
+		if err != nil {
+			fmt.Println(Red, err, Reset)
 		}
 	}
 	return nil

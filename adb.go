@@ -27,13 +27,15 @@ func GetAppsFromFile(appFile string) (apps []string, err error) {
 	// 按行读取文件中数据
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
-		// 跳过注释
-		if strings.Contains(scanner.Text(), "//") {
+		// 去除整行中所有的 空格 与 package:
+		app := strings.ReplaceAll(scanner.Text(), " ", "")
+		app = strings.ReplaceAll(app, "package:", "")
+		// 跳过注释及空白行
+		if strings.Contains(app, "//") || strings.Contains(app, "#") || app == "" {
 			continue
 		}
-
-		// 截取每行 package: 后半的包名,并存储到apps切片中
-		apps = append(apps, strings.ReplaceAll(scanner.Text(), "package:", ""))
+		// 符合条件的 app 存储到 apps 切片中
+		apps = append(apps, app)
 	}
 	return apps, nil
 }
@@ -82,4 +84,12 @@ func PMDisableUser(app string, uid int) error {
 
 func PMEnable(app string) error {
 	return gExec.Run(exec.Command("adb", "shell", "pm", "enable", app))
+}
+
+func PMSuspend(app string) error {
+	return gExec.Run(exec.Command("adb", "shell", "pm", "suspend", app))
+}
+
+func PMUnsuspend(app string) error {
+	return gExec.Run(exec.Command("adb", "shell", "pm", "unsuspend", app))
 }
