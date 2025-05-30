@@ -8,16 +8,16 @@
 # DeliverServer
 com.oppo.instant.local.service
 
-# 蓝牙遮罩
+# 遮罩-蓝牙框架
 #com.oplus.framework_bluetooth.overlay
 
-# 多窗口-分屏功能
+# 多窗口
 #com.oplus.pscanvas
 
 # 耳机返听
-#com.coloros.karaoke
+com.coloros.karaoke
 
-# atlasService-分应用音量调节
+# atlas service-独立应用音量
 #com.oplus.atlas
 
 # 服务治理框架
@@ -26,8 +26,8 @@ com.oppo.instant.local.service
 # 手势体感服务
 #com.oplus.exserviceui
 
-# OpenCapabilityService-支付安全相关服务
-com.coloros.ocs.opencapabilityservice
+# 开放能力服务-支付安全相关
+#com.coloros.ocs.opencapabilityservice
 
 # 头像象编辑软件
 com.oplus.omoji
@@ -44,13 +44,13 @@ com.oplus.ovoicemanager.wakeup
 # 系统 ui 插件
 #com.oplus.systemui.plugins
 
-# 应用增强服务 游戏中心相关
+# 应用增强服务-游戏中心
 com.oplus.cosa
 
-# OPPO 系统桌面
+# oppo 系统桌面
 #com.android.launcher
 
-# 配置更新 运营商相关
+# 配置更新-运营商
 #com.oplus.cota
 
 # 安卓系统
@@ -71,13 +71,10 @@ com.oplus.stdsp
 # 全局搜索
 com.heytap.quicksearchbox
 
-# 虚拟通信资源
-com.android.virtualmachine.res
-
 # 软件商店
 com.heytap.market
 
-# 系统记录相关
+# OplusLFEHer 系统记录相关
 com.oplus.lfeh
 
 # 护眼模式
@@ -122,11 +119,8 @@ com.coloros.codebook
 # 广告服务
 com.opos.ads
 
-# 系统框架遮罩 蓝牙相关
+# 遮罩-蓝牙
 com.android.bluetooth.oplus.overlay
-
-# 系统框架遮罩 紧急情况播报相关
-com.android.cellbroadcastreceiver.overlay.common
 
 # 百变引擎
 #com.oplus.uiengine
@@ -209,7 +203,7 @@ com.oplus.linker
 # OneTrace 日志相关
 com.oplus.onetrace
 
-# 语音助手相关
+# 语音助手
 com.oplus.ovoicemanager
 
 # 通知管理
@@ -546,7 +540,7 @@ com.oplus.qualityprotect
 com.heytap.speechassist
 
 # 语音设置
-#com.yuemeng.speechsuite
+com.yuemeng.speechsuite
 
 # 智慧出行
 com.oplus.travelengine
@@ -554,7 +548,7 @@ com.oplus.travelengine
 # 升级指南
 com.oplus.upgradeguide
 
-# 微信支付生物识别身份认证
+# soter-腾讯生物识别身份认证
 com.tencent.soter.soterserver
 
 # 更新服务
@@ -563,14 +557,14 @@ com.tencent.soter.soterserver
 # SOS 紧急联络
 #com.oplus.sos
 
-# 遮罩
+# 遮罩-安全中心
 #com.google.android.overlay.gmsconfig.nosafetycenter
 
 # 系统可卸载应用找回
 #com.oplus.apprecover
 
-# 遮罩
+# 遮罩-运营商配置
 #com.android.carrierconfig.oplus.overlay
 
-# OplusMediaController
+# 媒体控制
 #com.oplus.mediacontroller
