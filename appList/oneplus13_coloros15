@@ -90,7 +90,7 @@ com.oplus.acc.gac
 com.heytap.cloud
 
 # 数字车钥匙服务
-#com.oplus.cardigitalkey
+com.oplus.cardigitalkey
 
 # OpenID
 com.heytap.openid
@@ -120,7 +120,7 @@ com.coloros.codebook
 com.opos.ads
 
 # 遮罩-蓝牙
-com.android.bluetooth.oplus.overlay
+#com.android.bluetooth.oplus.overlay
 
 # 百变引擎
 #com.oplus.uiengine
@@ -246,7 +246,7 @@ com.baidu.input_oppo
 #com.coloros.mapcom.frame
 
 # Gestural Navigation Bar
-com.android.internal.systemui.navbar.gestural
+#com.android.internal.systemui.navbar.gestural
 
 # Notes Role enabled
 com.android.role.notes.enabled
@@ -336,7 +336,7 @@ com.heytap.vip
 com.oplus.metis
 
 # 系统服务 截屏等
-com.oplus.exsystemservice
+#com.oplus.exsystemservice
 
 # ColorOS Smart Features
 #com.aiunit.aon
@@ -390,10 +390,10 @@ com.coloros.oshare
 com.microsoft.appmanager
 
 # Eid-Service
-com.oplus.eid
+#com.oplus.eid
 
 # DSF
-com.oplus.ndsf
+#com.oplus.ndsf
 
 # wifi 密码备份云端
 com.oplus.wifibackuprestore
@@ -432,7 +432,7 @@ com.coloros.securityguard
 com.coloros.operationManual
 
 # 号码归属地
-com.oplus.phonenoareainquire
+#com.oplus.phonenoareainquire
 
 # 数据基础服务 User Experience Program
 com.oplus.statistics.rom
@@ -444,7 +444,7 @@ com.oplus.statistics.rom
 #com.android.connectivity.resources.overlay.oplus
 
 # 耗电监控服务
-com.oplus.powermonitor
+#com.oplus.powermonitor
 
 # SmartEngine
 #com.oplus.smartengine
@@ -473,8 +473,8 @@ com.coloros.sceneservice
 # 设备空间
 #com.heytap.mydevices
 
-# 速览(负一屏)
-com.coloros.assistantscreen
+# 速览(负一屏 + 桌面卡片)
+#com.coloros.assistantscreen
 
 # privacy sandbox 组件
 com.android.ondevicepersonalization.services
