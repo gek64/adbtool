@@ -27,7 +27,7 @@ com.coloros.karaoke
 #com.oplus.exserviceui
 
 # 开放能力服务-支付安全相关
-#com.coloros.ocs.opencapabilityservice
+com.coloros.ocs.opencapabilityservice
 
 # 头像象编辑软件
 com.oplus.omoji
@@ -96,7 +96,7 @@ com.oplus.cardigitalkey
 com.heytap.openid
 
 # 安全键盘
-#com.oplus.securitykeyboard
+com.oplus.securitykeyboard
 
 # 态度杂志
 #com.oplus.keyguard.clock.magazine
@@ -186,7 +186,7 @@ com.coloros.digitalwellbeing
 com.heytap.htms
 
 # CrashBox
-#com.oplus.crashbox
+com.oplus.crashbox
 
 # 设备快连
 com.heytap.accessory
@@ -279,7 +279,7 @@ com.oplus.aiwidgets
 #com.newcall
 
 # 智能应用检测
-#com.oplus.thirdkit
+com.oplus.thirdkit
 
 # 经典主题
 #com.oplus.keyguard.clock.base
@@ -324,7 +324,7 @@ com.coloros.remoteguardservice
 #com.oplus.safecenter
 
 # 天气服务
-#com.coloros.weather.service
+com.coloros.weather.service
 
 # 支付保护
 com.coloros.securepay
@@ -366,7 +366,7 @@ com.android.adservices.api
 com.coloros.accessibilityassistant
 
 # 跨设备文件管理
-com.oplus.dfs
+#com.oplus.dfs
 
 # 壁纸
 #com.oplus.wallpapers
@@ -381,7 +381,7 @@ com.heytap.tas
 com.heytap.opluscarlink
 
 # 一加互传
-com.coloros.oshare
+#com.coloros.oshare
 
 # WifiQoe
 #com.oplus.tai.wifiqoe
@@ -474,7 +474,7 @@ com.coloros.sceneservice
 #com.heytap.mydevices
 
 # 速览(负一屏 + 桌面卡片)
-#com.coloros.assistantscreen
+com.coloros.assistantscreen
 
 # privacy sandbox 组件
 com.android.ondevicepersonalization.services
