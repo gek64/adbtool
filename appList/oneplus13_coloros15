@@ -1,11 +1,12 @@
 #!/usr/bin/env sh
+# https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json
 # 使用正则匹配查看 oplus|oppo|coloros|heytap|opos|^(?![\n /#]).*
 # 开发者选项中开启 禁止权限监控
 
 # 虚拟通信
 #com.oplus.virtualcomm
 
-# DeliverServer
+# DeliverServer(快应用相关)
 com.oppo.instant.local.service
 
 # 遮罩-蓝牙框架
@@ -17,7 +18,7 @@ com.oppo.instant.local.service
 # 耳机返听
 com.coloros.karaoke
 
-# atlas service-独立应用音量
+# atlas service
 #com.oplus.atlas
 
 # 服务治理框架
@@ -26,7 +27,7 @@ com.coloros.karaoke
 # 手势体感服务
 #com.oplus.exserviceui
 
-# 开放能力服务-支付安全相关
+# 开放能力服务
 com.coloros.ocs.opencapabilityservice
 
 # 头像象编辑软件
@@ -44,7 +45,7 @@ com.oplus.ovoicemanager.wakeup
 # 系统 ui 插件
 #com.oplus.systemui.plugins
 
-# 应用增强服务-游戏中心
+# 应用增强服务(游戏)
 com.oplus.cosa
 
 # oppo 系统桌面
@@ -74,8 +75,8 @@ com.heytap.quicksearchbox
 # 软件商店
 com.heytap.market
 
-# OplusLFEHer 系统记录相关
-com.oplus.lfeh
+# OplusLFEHer(系统日志相关)
+#com.oplus.lfeh
 
 # 护眼模式
 #com.oplus.eyeprotect
@@ -96,19 +97,19 @@ com.oplus.cardigitalkey
 com.heytap.openid
 
 # 安全键盘
-com.oplus.securitykeyboard
+#com.oplus.securitykeyboard
 
 # 态度杂志
 #com.oplus.keyguard.clock.magazine
 
-# 主题基础服务
+# 主题基础服务(需要欢太账户登录)
 com.oplus.themestore
 
 # 融合搜索服务
 com.oplus.dmp
 
 # 密码本
-com.coloros.codebook
+#com.coloros.codebook
 
 # 通信网络工模
 #com.oplus.engineernetwork
@@ -194,14 +195,14 @@ com.heytap.accessory
 # 多彩引擎
 com.heytap.colorfulengine
 
-# 日志相关
-com.oplus.obrain
+# 日志记录器(系统日志相关)
+#com.oplus.obrain
 
 # 设备互联服务
-com.oplus.linker
+#com.oplus.linker
 
-# OneTrace 日志相关
-com.oplus.onetrace
+# OneTrace(系统日志相关)
+#com.oplus.onetrace
 
 # 语音助手
 com.oplus.ovoicemanager
@@ -249,12 +250,12 @@ com.baidu.input_oppo
 #com.android.internal.systemui.navbar.gestural
 
 # Notes Role enabled
-com.android.role.notes.enabled
+#com.android.role.notes.enabled
 
 # 安全支付
 com.oplus.pay
 
-# 图形增强服务
+# 图形增强服务(游戏)
 com.oplus.colorx
 
 # 运营商位置信息
@@ -347,8 +348,8 @@ com.coloros.floatassistant
 # 儿童模式
 com.coloros.childrenspace
 
-# Olc 日志相关
-com.oplus.olc
+# Olc(系统日志相关)
+#com.oplus.olc
 
 # 小布扫一扫
 com.coloros.ocrscanner
@@ -411,7 +412,7 @@ com.coloros.video
 #com.coloros.systemclone
 
 # Assistant
-com.coloros.lockassistant
+#com.coloros.lockassistant
 
 # 翻译服务
 com.coloros.translate.engine
@@ -420,7 +421,7 @@ com.coloros.translate.engine
 com.oplus.beaconlink
 
 # 私密保险箱
-com.oplus.encryption
+#com.oplus.encryption
 
 # 骚扰拦截
 #com.oplus.blacklistapp
@@ -434,7 +435,7 @@ com.coloros.operationManual
 # 号码归属地
 #com.oplus.phonenoareainquire
 
-# 数据基础服务 User Experience Program
+# 数据基础服务
 com.oplus.statistics.rom
 
 # audiomonitor
@@ -482,7 +483,7 @@ com.android.ondevicepersonalization.services
 # 电池
 #com.oplus.battery
 
-# 系统消息
+# 系统消息(oppo 推送)
 com.heytap.mcs
 
 # 遮罩
@@ -519,7 +520,7 @@ com.coloros.findmyphone
 #com.android.packageinstaller
 
 # 图片描述
-com.oplus.viewtalk
+#com.oplus.viewtalk
 
 # 开机注册
 #com.coloros.bootreg
@@ -533,8 +534,8 @@ com.oplus.viewtalk
 # Car+ 车联
 com.oplus.ocar
 
-# QualityProtect
-com.oplus.qualityprotect
+# QualityProtect(系统日志相关)
+#com.oplus.qualityprotect
 
 # 小布助手
 com.heytap.speechassist
