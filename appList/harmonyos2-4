@@ -421,7 +421,7 @@ com.huawei.ohos.suggestion
 # OneHopSvcHost
 #com.huawei.onehopsvchost
 
-# 健康使用手机
+# 健康使用手机(无法 uninstall + disable)
 com.huawei.parentcontrol
 
 # 华为分享
@@ -473,7 +473,7 @@ com.huawei.search
 com.huawei.searchservice
 
 # Secure IME(安全键盘)
-com.huawei.secime
+#com.huawei.secime
 
 # 安全组件
 #com.huawei.securitymgr
