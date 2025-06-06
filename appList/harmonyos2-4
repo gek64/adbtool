@@ -401,7 +401,7 @@ com.huawei.msdp
 #com.huawei.ohos.camera
 
 # 服务中心
-#com.huawei.ohos.famanager
+com.huawei.ohos.famanager
 
 # HiWindow
 #com.huawei.ohos.hiwindow
