@@ -1,27 +1,118 @@
 #!/usr/bin/env sh
 
-# 音乐
+#android
+#android.ext.services
+#androidhwext
+#com.android.apps.tag
+#com.android.backupconfirm
+#com.android.bluetooth
+#com.android.bluetoothmidiservice
+#com.android.calendar
+#com.android.calllogbackup
+#com.android.captiveportallogin
+#com.android.carrierconfig
+#com.android.cellbroadcastreceiver
+#com.android.certinstaller
+#com.android.companiondevicemanager
+#com.android.contacts
+#com.android.cts.ctsshim
+#com.android.cts.priv.ctsshim
+#com.android.deskclock
+#com.android.documentsui
+#com.android.dreams.phototable
+#com.android.emergency
+#com.android.externalstorage
+#com.android.frameworkres.overlay
+#com.android.gallery3d
+#com.android.htmlviewer
+#com.android.incallui
+#com.android.inputdevices
+#com.android.internal.systemui.navbar.gestural
+#com.android.keychain
+#com.android.location.fused
+#com.android.managedprovisioning
 com.android.mediacenter
+#com.android.mms
+#com.android.mms.service
+#com.android.modulemetadata
+#com.android.mtp
+#com.android.networkstack.inprocess
+#com.android.networkstack.permissionconfig
+#com.android.nfc
+#com.android.ons
+#com.android.packageinstaller
+#com.android.pacprocessor
+#com.android.permissioncontroller
+#com.android.phone
+#com.android.printspooler
+#com.android.providers.blockednumber
+#com.android.providers.calendar
+#com.android.providers.contacts
+#com.android.providers.downloads
+#com.android.providers.downloads.ui
+#com.android.providers.media
+#com.android.providers.settings
+#com.android.providers.telephony
+#com.android.providers.userdictionary
+#com.android.proxyhandler
+#com.android.se
+#com.android.server.telecom
+#com.android.settings
+#com.android.sharedstoragebackup
+#com.android.shell
+#com.android.statementservice
+#com.android.stk
+#com.android.systemui
+#com.android.systemui.overlay
+#com.android.vending
+#com.android.vpndialogs
+#com.android.wallpaper.livepicker
+#com.android.wallpaperbackup
+#com.android.wallpapercropper
 
 # 百度输入法华为版
 com.baidu.input_huawei
 
-# 小艺输入法
-com.huawei.ohos.inputmethod
+# ConfigUpdater
+#com.google.android.configupdater
 
-# 华为音乐
-com.huawei.music
+# Android Shared Library
+#com.google.android.ext.shared
 
-# 滚动截屏(v4.0.0.121 卸载后无法使用截图功能)
-#com.huawei.HwMultiScreenShot
+# Google Play 服务
+#com.google.android.gms
+
+# Google 服务框架
+#com.google.android.gsf
+
+# Android Accessibility Suite
+#com.google.android.marvin.talkback
+
+# Google One Time Init
+#com.google.android.onetimeinitializer
+
+# @
+#com.google.android.overlay.gmsconfig
+
+# @
+#com.google.android.overlay.settingsProvider
+
+# Google Partner Setup
+#com.google.android.partnersetup
+
+# Print Service Recommendation Service
+#com.google.android.printservice.recommendation
+
+# Android System WebView
+#com.google.android.webview
+
+# ARCore
+#com.google.ar.core
 
 # AirLink
 com.huawei.airlink
 
-# 悬浮导航(可选)
-com.huawei.android.FloatTasks
-
-# 无线投屏(可选)
+# 无线投屏
 com.huawei.android.airsharing
 
 # HwChrService
@@ -30,22 +121,28 @@ com.huawei.android.chr
 # 查找设备
 com.huawei.android.findmyphone
 
-# HwAps (Advanced Power Saving 勿操作)
+# 悬浮导航
+#com.huawei.android.FloatTasks
+
+# HMS 服务框架
+#com.huawei.android.hsf
+
+# HwAps
 #com.huawei.android.hwaps
 
-# 软件更新(勿操作)
+# 软件更新
 #com.huawei.android.hwouc
 
 # 升级向导
-#com.huawei.android.hwupgradeguide
+com.huawei.android.hwupgradeguide
 
 # HwInstantOnline
 com.huawei.android.instantonline
 
-# 华为分享(勿操作)
-#com.huawei.android.instantshare
+# 华为分享
+com.huawei.android.instantshare
 
-# Huawei Share(华为分享组件,勿操作)
+# Share
 #com.huawei.android.internal.app
 
 # K 歌特效
@@ -54,19 +151,22 @@ com.huawei.android.karaoke
 # 华为桌面
 #com.huawei.android.launcher
 
-# 工程菜单(电话拨号盘 *#*#2846579#*#* 勿操作)
+# 工程菜单(*#*#2846579#*#*)
 #com.huawei.android.projectmenu
 
-# 推送服务(System update OTA notification push service 勿操作)
+# 推送服务
 #com.huawei.android.pushagent
 
-# 主题(系统核心应用)
+# 主题
 #com.huawei.android.thememanager
 
 # WLAN 直连
 com.huawei.android.wfdft
 
-# 华为应用市场(卸载或禁用以绕过纯净模式安装应用限制)
+# @
+#com.huawei.androidx
+
+# 华为应用市场
 com.huawei.appmarket
 
 # AREngineServer
@@ -82,13 +182,13 @@ com.huawei.assetsyncservice
 com.huawei.audioaccessorymanager
 
 # BehaviorAuth
-#com.huawei.behaviorauth
+com.huawei.behaviorauth
 
 # 通过蓝牙导入
 #com.huawei.bluetooth
 
 # 骨声纹识别
-com.huawei.bonevoiceui
+#com.huawei.bonevoiceui
 
 # 浏览器
 com.huawei.browser
@@ -103,12 +203,12 @@ com.huawei.browser
 #com.huawei.camerakit.impl
 
 # HwCoAuthService
-com.huawei.coauthservice
+#com.huawei.coauthservice
 
 # 联系人同步
 com.huawei.contacts.sync
 
-# 取词
+# 取词(智能识屏插件)
 com.huawei.contentsensor
 
 # 智慧协同
@@ -130,7 +230,7 @@ com.huawei.desktop.explorer
 #com.huawei.devicegroupmanage
 
 # 分布式设备管理
-com.huawei.devicemanager
+#com.huawei.devicemanager
 
 # HwDistributedKeyManager
 #com.huawei.distributed.kms
@@ -138,7 +238,7 @@ com.huawei.devicemanager
 # 分布式设备管理
 #com.huawei.dmsdp
 
-# SIM 卡管理(勿操作)
+# SIM 卡管理
 #com.huawei.dsdscardmanager
 
 # HwEasyGo
@@ -148,10 +248,10 @@ com.huawei.easygo
 com.huawei.fastapp
 
 # FeatureFramework
-com.huawei.featurelayer.featureframework
+#com.huawei.featurelayer.featureframework
 
 # 地图服务
-com.huawei.featurelayer.sharedfeature.map
+#com.huawei.featurelayer.sharedfeature.map
 
 # FIDO UAF Client
 #com.huawei.fido.uafclient
@@ -159,22 +259,22 @@ com.huawei.featurelayer.sharedfeature.map
 # 文件管理
 com.huawei.filemanager
 
-# com.huawei.ohos.foundation.FoundationApplication
+# foundation
 #com.huawei.harmonyos.foundation
 
-# com.huawei.hff(ffmpeg,勿操作)
+# ffmpeg
 #com.huawei.hff
 
-# HUAWEI HiAI Base
+# HiAI Base
 com.huawei.hiaction
 
 # 华为智慧引擎
 com.huawei.hiai
 
-# Huawei HiCar(卡片服务)
+# Huawei HiCar
 com.huawei.hicar
 
-# HiCard(汽车服务)
+# HiCard
 com.huawei.hicard
 
 # 云空间服务
@@ -225,8 +325,14 @@ com.huawei.hwdiagnosis
 # 智慧多窗
 #com.huawei.hwdockbar
 
-# HwPanPayService(息屏支付)
-com.huawei.hwpanpayservice
+# HMS Core
+#com.huawei.hwid
+
+# 滚动截屏
+#com.huawei.HwMultiScreenShot
+
+# HwPanPayService
+#com.huawei.hwpanpayservice
 
 # HwStartupGuide
 #com.huawei.hwstartupguide
@@ -259,7 +365,7 @@ com.huawei.intelligent
 #com.huawei.lbs
 
 # 华山
-com.huawei.livewallpaper.matetwenty
+#com.huawei.livewallpaper.matetwenty
 
 # 杂志锁屏
 com.huawei.magazine
@@ -274,7 +380,7 @@ com.huawei.magazine
 #com.huawei.motionservice
 
 # 综合传感信息处理平台
-#com.huawei.msdp
+com.huawei.msdp
 
 # HwAudioKit
 #com.huawei.multimedia.audioengine
@@ -285,7 +391,7 @@ com.huawei.magazine
 # 数据管理服务
 #com.huawei.nb.service
 
-# HwNearby(华为附近服务,鸿蒙3.0卸载会导致导航手势失效)
+# HwNearby
 #com.huawei.nearby
 
 # 号码识别
@@ -295,7 +401,7 @@ com.huawei.magazine
 #com.huawei.ohos.camera
 
 # 服务中心
-com.huawei.ohos.famanager
+#com.huawei.ohos.famanager
 
 # HiWindow
 #com.huawei.ohos.hiwindow
@@ -315,10 +421,10 @@ com.huawei.ohos.suggestion
 # OneHopSvcHost
 #com.huawei.onehopsvchost
 
-# 健康使用手机(Parental controls)
+# 健康使用手机
 com.huawei.parentcontrol
 
-# 华为分享(HiSuite service)
+# 华为分享
 com.huawei.pcassistant
 
 # 华为智能建议
@@ -327,85 +433,85 @@ com.huawei.pengine
 # 通话录音
 #com.huawei.phone.recorder
 
-# 我的华为(HiCare app)
+# 我的华为
 com.huawei.phoneservice
 
-# HAware(Huawei Power management,勿操作)
+# HAware
 #com.huawei.powergenie
 
-# 华为打印(可选)
-com.huawei.printservice
+# 华为打印
+#com.huawei.printservice
 
-# 隐私空间(可选)
-com.huawei.privatespace
+# 隐私空间
+#com.huawei.privatespace
 
-# Huawei Profile Services
-#com.huawei.profile
+# Profile Services
+com.huawei.profile
 
-# 华为 RCS 服务(华为手机免费短信)
+# 华为 RCS 服务(5G 消息/增强信息)
 com.huawei.rcsserviceapplication
 
-# HwHiAIDSEngine(华为智慧引擎)
+# HwHiAIDSEngine
 com.huawei.recsys
 
-# RegService(华为注册服务)
-com.huawei.regservice
+# RegService
+#com.huawei.regservice
 
 # RemotePassword
-#com.huawei.remotepassword
+com.huawei.remotepassword
 
-# 智慧视觉(图片翻译,图像识别,可选)
+# 智慧视觉
 com.huawei.scanner
 
-# 屏幕录制(可选)
-com.huawei.screenrecorder
+# 屏幕录制
+#com.huawei.screenrecorder
 
-# 智慧搜索(搜索服务,可选)
+# 智慧搜索
 com.huawei.search
 
 # 融合搜索服务
 com.huawei.searchservice
 
-# Huawei Secure IME(华为安全键盘)
-#com.huawei.secime
+# Secure IME(安全键盘)
+com.huawei.secime
 
-# 安全组件(隐私空间组件,可选)
-com.huawei.securitymgr
+# 安全组件
+#com.huawei.securitymgr
 
 # HwSecurityPluginBase
 #com.huawei.securitypluginbase
 
-# 华为安全公共服务(安全服务密码,人脸识别,勿操作)
+# 华为安全公共服务
 #com.huawei.securityserver
 
 # 天际通数据服务
 com.huawei.skytone
 
-# 智能截屏(可选)
+# 智能截屏
 #com.huawei.smartshot
 
-# 地理围栏服务(精准位置识别)
-com.huawei.spaceservice
+# 地理围栏服务
+#com.huawei.spaceservice
 
-# 情景智能(预禁用)
+# 情景智能
 com.huawei.suggestion
 
-# HwSynergy(华为协同)
+# HwSynergy
 com.huawei.synergy
 
-# 手机管家(勿操作)
+# 手机管家
 #com.huawei.systemmanager
 
 # 系统服务
 #com.huawei.systemserver
 
-# 智能解锁(可选)
-com.huawei.trustagent
+# 智能解锁
+#com.huawei.trustagent
 
 # 设备认证服务
 #com.huawei.trustcircle
 
-# HwTrustedThingsAuth(可信认证跳过)
+# HwTrustedThingsAuth
 #com.huawei.trustedthingsauth
 
 # 支付保护中心
@@ -419,6 +525,9 @@ com.huawei.wallet
 
 # WalletSDK
 com.huawei.wallet.sdk.walletsdk
+
+# waudio
+com.huawei.waudio
 
 # Huawei WebView
 #com.huawei.webview
@@ -438,19 +547,20 @@ com.tencent.qqlivehuawei
 # MediaLibrary(鸿蒙媒体库)
 #ohos.media.medialibrary
 
-# harmonyos4
 
-# HMS 服务框架
-com.huawei.android.hsf
+# harmonyos3-4
+
+# 小艺输入法
+com.huawei.ohos.inputmethod
+
+# 华为音乐
+com.huawei.music
 
 # 安全隐私中心
 #com.huawei.security.privacycenter
 
 # 安全隐私中心服务卡片
 com.huawei.ohos.security.privacycenter
-
-# 图库服务卡片
-com.huawei.ohos.photos
 
 # 钱包服务卡片
 com.huawei.wallet.facard
@@ -461,11 +571,5 @@ com.huawei.himovie.local
 # 音乐播放器
 com.huawei.music.local
 
-# 智慧多窗
-com.huawei.hwdockbar
-
 # 智能信息
 com.huawei.hbm
-
-# HMS Core(卸载会导致app运营商登录失败)
-#com.huawei.hwid
