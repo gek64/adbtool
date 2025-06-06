@@ -11,7 +11,7 @@
 adb devices
 
 # if you want to get a list of installed apps on your device
-adb shell pm list packages > app.txt
+adb shell pm list packages | sort > app.txt
 
 # uninstall all apps
 adbtool uninstall -a
