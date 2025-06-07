@@ -3,359 +3,238 @@
 # 使用正则匹配查看 oplus|oppo|coloros|heytap|opos|^(?![\n /#]).*
 # 开发者选项中开启 禁止权限监控
 
-# 虚拟通信
-#com.oplus.virtualcomm
+#android
+#android.auto_generated_characteristics_rro
+#android.ext.services
+#android.frameworkres.overlay
+#android.frameworkres.overlay.display.product
+#android.frameworkres.overlay.Network
+#android.overlay.common
+#android.overlay.target
 
-# DeliverServer(快应用相关)
-com.oppo.instant.local.service
+# AON 框架遮罩
+#aon.frameworkres.overlay.product
 
-# 遮罩-蓝牙框架
-#com.oplus.framework_bluetooth.overlay
+# AONService
+#com.aiunit.aon
 
-# 多窗口
-#com.oplus.pscanvas
-
-# 耳机返听
-com.coloros.karaoke
-
-# atlas service
-#com.oplus.atlas
-
-# 服务治理框架
-#com.oplus.pantanal.ums
-
-# 手势体感服务
-#com.oplus.exserviceui
-
-# 开放能力服务
-com.coloros.ocs.opencapabilityservice
-
-# 头像象编辑软件
-com.oplus.omoji
-
-# 账号中心
-com.oplus.account
-
-# 反馈工具箱
-com.oplus.logkit
-
-# 语音助手-唤醒服务
-com.oplus.ovoicemanager.wakeup
-
-# 系统 ui 插件
-#com.oplus.systemui.plugins
-
-# 应用增强服务(游戏)
-com.oplus.cosa
-
-# oppo 系统桌面
-#com.android.launcher
-
-# 配置更新-运营商
-#com.oplus.cota
-
-# 安卓系统
-#oplus
-
-# 开关控制
-com.google.android.accessibility.switchaccess
-
-# AI 服务引擎
-com.oplus.aiunit
-
-# 灵感相框
-#com.oplus.keyguard.clock.gallery
-
-# 设备安全服务
-com.oplus.stdsp
-
-# 全局搜索
-com.heytap.quicksearchbox
-
-# 软件商店
-com.heytap.market
-
-# OplusLFEHer(系统日志相关)
-#com.oplus.lfeh
-
-# 护眼模式
-#com.oplus.eyeprotect
-
-# 智慧云加速
-com.oplus.acc.gac
-
-# 蓝牙测试模式
-#com.oplus.bttestmode
-
-# 云服务
-com.heytap.cloud
-
-# 数字车钥匙服务
-com.oplus.cardigitalkey
-
-# OpenID
-com.heytap.openid
-
-# 安全键盘
-#com.oplus.securitykeyboard
-
-# 态度杂志
-#com.oplus.keyguard.clock.magazine
-
-# 主题基础服务(需要欢太账户登录)
-com.oplus.themestore
-
-# 融合搜索服务
-com.oplus.dmp
-
-# 密码本
-#com.coloros.codebook
-
-# 通信网络工模
-#com.oplus.engineernetwork
-
-# 系统框架遮罩
-#com.oplus.framework.res.overlay
-
-# 广告服务
-com.opos.ads
-
-# 遮罩-蓝牙
+#com.android.adservices.api
+#com.android.apps.tag
+#com.android.appsearch.apk
+#com.android.backupconfirm
+#com.android.bips
+#com.android.bluetooth
 #com.android.bluetooth.oplus.overlay
-
-# 百变引擎
-#com.oplus.uiengine
-
-# 手机管家
-com.coloros.phonemanager
-
-# 软件更新
-#com.oplus.ota
-
-# 简易模式
-com.coloros.scenemode
-
-# 安全中心资源
+#com.android.bluetoothmidiservice
+#com.android.bookmarkprovider
+#com.android.calllogbackup
+#com.android.cameraextensions
+#com.android.captiveportallogin
+#com.android.carrierconfig
+#com.android.carrierconfig.oplus.overlay
+#com.android.carrierconfig.overlay.common
+#com.android.carrierconfig.overlay.product
+#com.android.carrierdefaultapp
+#com.android.cellbroadcastreceiver
+#com.android.cellbroadcastreceiver.module
+#com.android.cellbroadcastreceiver.overlay.common
+#com.android.cellbroadcastservice
+#com.android.certinstaller
+#com.android.companiondevicemanager
+#com.android.companiondevicemanager.auto_generated_characteristics_rro
+#com.android.compos.payload
+#com.android.connectivity.resources
+#com.android.connectivity.resources.overlay.oplus
+#com.android.contacts
+#com.android.credentialmanager
+#com.android.cts.ctsshim
+#com.android.cts.priv.ctsshim
+#com.android.DeviceAsWebcam
+#com.android.devicelockcontroller
+#com.android.documentsui
+#com.android.dreams.basic
+#com.android.dynsystem
+#com.android.egg
+#com.android.externalstorage
+#com.android.federatedcompute.services
+#com.android.health.connect.backuprestore
+#com.android.healthconnect.controller
+#com.android.hotspot2.osulogin
+#com.android.htmlviewer
+#com.android.incallui
+#com.android.inputdevices
+#com.android.intentresolver
+#com.android.internal.display.cutout.emulation.corner
+#com.android.internal.display.cutout.emulation.double
+#com.android.internal.display.cutout.emulation.hole
+#com.android.internal.display.cutout.emulation.tall
+#com.android.internal.display.cutout.emulation.waterfall
+#com.android.internal.systemui.navbar.gestural
+#com.android.internal.systemui.navbar.threebutton
+#com.android.internal.systemui.navbar.transparent
+#com.android.keychain
+#com.android.launcher
+#com.android.localtransport
+#com.android.location.fused
+#com.android.managedprovisioning
+#com.android.microdroid.empty_payload
+#com.android.mms
+#com.android.mms.service
+#com.android.modulemetadata
+#com.android.mtp
+#com.android.networkstack
+#com.android.networkstack.tethering
+#com.android.nfc
+#com.android.oemextensions
+#com.android.ondevicepersonalization.services
+#com.android.ons
+#com.android.packageinstaller
+#com.android.pacprocessor
+#com.android.permissioncontroller
+#com.android.phone
+#com.android.phone.overlay.common
+#com.android.printspooler
+#com.android.providers.blockednumber
+#com.android.providers.calendar
+#com.android.providers.contactkeys
+#com.android.providers.contacts
+#com.android.providers.downloads
+#com.android.providers.downloads.ui
+#com.android.providers.media
+#com.android.providers.media.module
+#com.android.providers.settings
+#com.android.providers.telephony
+#com.android.providers.userdictionary
+#com.android.proxyhandler
+#com.android.rkpdapp
+#com.android.role.notes.enabled
 #com.android.safetycenter.resources
+#com.android.safetycenter.resources.overlay
+#com.android.safetycenter.styles.overlay
+#com.android.sdksandbox
+#com.android.se
+#com.android.se.overlay.target
+#com.android.server.deviceconfig.resources
+#com.android.server.telecom
+#com.android.server.telecom.overlay.common
+#com.android.settings
+#com.android.settings.intelligence
+#com.android.settings.overlay.common
+#com.android.sharedstoragebackup
+#com.android.shell
+#com.android.simappdialog
+#com.android.statementservice
+#com.android.stk
+#com.android.storagemanager
+#com.android.systemui
+#com.android.systemui.accessibility.accessibilitymenu
+#com.android.systemui.oplus.res.overlay
+#com.android.systemui.overlay.common
+#com.android.systemui.overlay.fingerprint.anim.ccyh
+#com.android.systemui.overlay.fingerprint.anim.fy
+#com.android.systemui.overlay.fingerprint.anim.halo
+#com.android.systemui.overlay.fingerprint.anim.jslz
+#com.android.systemui.overlay.fingerprint.anim.melodicstream
+#com.android.systemui.overlay.fingerprint.anim.none
+#com.android.systemui.overlay.fingerprint.anim.qy
+#com.android.systemui.overlay.fingerprint.anim.sw
+#com.android.systemui.overlay.fingerprint.anim.xklc
+#com.android.systemui.overlay.fingerprint.anim.xw
+#com.android.SystemUIResOverlay
+#com.android.theme.font.notoserifsource
+#com.android.traceur
+#com.android.uwb.resources
+#com.android.vending
+#com.android.virtualmachine.res
+#com.android.vpndialogs
+#com.android.wallpaper.livepicker
+#com.android.wallpaperbackup
+#com.android.wifi.dialog
+#com.android.wifi.resources
+#com.android.wifi.resources.overlay.common
+#com.android.wifi.resources.overlay.oplus
+#com.android.wifi.resources.overlay.target
 
-# 健康数据共享
-com.android.healthconnect.controller
+# 百度输入法定制版
+com.baidu.input_oppo
 
-# 应用安装器
-com.oplus.appdetail
-
-# 网络服务
-#com.oplus.nas
-
-# 流量管理
-#com.oplus.trafficmonitor
-
-# Cross Device Broker
-com.microsoftsdk.crossdeviceservicebroker
-
-# blur effects
-#com.oplus.blur
+# AI 语音摘记
+com.coloros.accessibilityassistant
 
 # 电子保卡
 com.coloros.activation
 
-# 快应用
-com.nearme.instant.platform
+# 速览(负一屏 + 桌面卡片)
+com.coloros.assistantscreen
 
-# 系统插件
-#com.oplus.plugin
-
-# 健康数据平台
-com.oplus.healthservice
-
-# 人像绘影
-com.oplus.portrait
-
-# 数字健康与家人守护(未成年人模式)
-com.coloros.digitalwellbeing
-
-# 应用服务
-#com.oplus.appplatform
-
-# 智慧能力服务 电池相关
-#com.oplus.deepthinker
-
-# 安全中心资源遮罩
-#com.android.safetycenter.resources.overlay
-
-# OPPO 移动服务
-com.heytap.htms
-
-# CrashBox
-com.oplus.crashbox
-
-# 设备快连
-com.heytap.accessory
-
-# 多彩引擎
-com.heytap.colorfulengine
-
-# 日志记录器(系统日志相关)
-#com.oplus.obrain
-
-# 设备互联服务
-#com.oplus.linker
-
-# OneTrace(系统日志相关)
-#com.oplus.onetrace
-
-# 语音助手
-com.oplus.ovoicemanager
-
-# 通知管理
-#com.oplus.notificationmanager
-
-# 乐划锁屏
-com.heytap.pictorial
-
-# runtime resource overlay
-#com.oplus.framework.rro.oneplus
-
-# 手势体感
-#com.oplus.gesture
-
-# 百度输入法定制版(安装替代输入法后删除)
-com.baidu.input_oppo
-
-# 智能识别陌生号码
-#com.ted.number
-
-# 后台进程管理器
-#com.oplus.athena
-
-# 定位服务
-#com.oplus.location
-
-# 工程模式
-#com.oplus.engineermode
-
-# CTAutoRegist 短信相关
-#com.oppo.ctautoregist
-
-# 遮罩
-#com.oplus.overlay.comms
-
-# Ether
-#com.oplus.ether
-
-# MapComFrame
-#com.coloros.mapcom.frame
-
-# Gestural Navigation Bar
-#com.android.internal.systemui.navbar.gestural
-
-# Notes Role enabled
-#com.android.role.notes.enabled
-
-# 安全支付
-com.oplus.pay
-
-# 图形增强服务(游戏)
-com.oplus.colorx
-
-# 运营商位置信息
-#com.oplus.locationproxy
-
-# 遮罩
-#oplus.frameworkres.overlay.display.product
-
-# 小布识屏
-com.coloros.directui
-
-# 识屏服务
-com.coloros.colordirectservice
-
-# 智慧控件
-com.oplus.aiwidgets
-
-# 遮罩
-#com.android.wifi.resources.overlay.oplus
-
-# 新通话
-#com.newcall
-
-# 智能应用检测
-com.oplus.thirdkit
-
-# 经典主题
-#com.oplus.keyguard.clock.base
-
-# 应用分身
-#com.oplus.multiapp
-
-# 5G NR
-#com.oplus.nrMode
-
-# 系统升级服务
-#com.oplus.sau
-
-# 系统升级服务助手
-#com.oplus.sauhelper
-
-# 自定义核心app
-#com.oplus.customize.coreapp
-
-# 权限管理
-#com.oplus.securitypermission
-
-# 无线设置
-#com.oplus.wirelesssettings
-
-# 息屏
-#com.oplus.aod
-
-# MediaTurbo
-#com.oplus.mediaturbo
-
-# 网络健康服务
-#com.oplus.nhs
-
-# 远程守护服务
-com.coloros.remoteguardservice
-
-# 诊断工具服务
-#com.oplus.postmanservice
-
-# 安全中心
-#com.oplus.safecenter
-
-# 天气服务
-com.coloros.weather.service
-
-# 支付保护
-com.coloros.securepay
-
-# 账号服务
-com.heytap.vip
-
-# 智慧决策服务
-com.oplus.metis
-
-# 系统服务 截屏等
-#com.oplus.exsystemservice
-
-# ColorOS Smart Features
-#com.aiunit.aon
-
-# 悬浮球
-com.coloros.floatassistant
+# 开机注册
+#com.coloros.bootreg
 
 # 儿童模式
 com.coloros.childrenspace
 
-# Olc(系统日志相关)
-#com.oplus.olc
+# 密码本
+com.coloros.codebook
+
+# 识屏服务
+com.coloros.colordirectservice
+
+# 数字健康与家人守护(未成年人模式)
+com.coloros.digitalwellbeing
+
+# 小布识屏
+com.coloros.directui
+
+# 查找
+com.coloros.findmyphone
+
+# 悬浮球
+#com.coloros.floatassistant
+
+# 相册
+#com.coloros.gallery3d
+
+# 耳机返听
+com.coloros.karaoke
+
+# Assistant
+#com.coloros.lockassistant
+
+# MapComFrame
+#com.coloros.mapcom.frame
 
 # 小布扫一扫
 com.coloros.ocrscanner
 
-# 广告隐私权-privacy sandbox 组件
-com.android.adservices.api
+# 开放能力服务
+com.coloros.ocs.opencapabilityservice
+
+# 帮助与反馈
+com.coloros.operationManual
+
+# 一加互传
+#com.coloros.oshare
+
+# 手机管家
+com.coloros.phonemanager
+
+# 远程守护服务
+com.coloros.remoteguardservice
+
+# 简易模式
+com.coloros.scenemode
+
+# 智慧数据增强服务(设置-AI)
+#com.coloros.sceneservice
+
+# 支付保护
+com.coloros.securepay
+
+# 安全事件
+com.coloros.securityguard
+
+# 屏幕共享
+com.coloros.sharescreen
 
 # 智能解锁
 #com.coloros.smartlock
@@ -363,209 +242,495 @@ com.android.adservices.api
 # 智能侧边栏
 #com.coloros.smartsidebar
 
-# AI 语音摘记
-com.coloros.accessibilityassistant
-
-# 跨设备文件管理
-#com.oplus.dfs
-
-# 壁纸
-#com.oplus.wallpapers
-
-# 系统卡包
-com.heytap.tas
-
-# 截屏
-#com.oplus.screenshot
-
-# CarLink
-com.heytap.opluscarlink
-
-# 一加互传
-#com.coloros.oshare
-
-# WifiQoe
-#com.oplus.tai.wifiqoe
-
-# 连接至 Windows
-com.microsoft.appmanager
-
-# Eid-Service
-#com.oplus.eid
-
-# DSF
-#com.oplus.ndsf
-
-# wifi 密码备份云端
-com.oplus.wifibackuprestore
-
-# 媒体播放器
-com.coloros.video
-
-# 相册
-#com.coloros.gallery3d
-
-# 权限控制器遮罩
-#com.google.android.permissioncontroller.overlay.oplus
-
 # 系统分身
 #com.coloros.systemclone
-
-# Assistant
-#com.coloros.lockassistant
 
 # 翻译服务
 com.coloros.translate.engine
 
-# 无网畅聊
-com.oplus.beaconlink
+# 媒体播放器
+com.coloros.video
 
-# 私密保险箱
-#com.oplus.encryption
+# 天气服务
+com.coloros.weather.service
 
-# 骚扰拦截
-#com.oplus.blacklistapp
+#com.fido.asm
+#com.fido.fido2client
+#com.fido.uafclient
+#com.google.android.accessibility.switchaccess
+#com.google.android.cellbroadcastreceiver.overlay
+#com.google.android.cellbroadcastservice.overlay
+#com.google.android.configupdater
+#com.google.android.ext.shared
+#com.google.android.gms
+#com.google.android.gsf
+#com.google.android.marvin.talkback
+#com.google.android.networkstack.overlay
+#com.google.android.onetimeinitializer
+#com.google.android.overlay.gmsconfig.common
+#com.google.android.overlay.gmsconfig.nosafetycenter
+#com.google.android.permissioncontroller.overlay.oplus
+#com.google.android.printservice.recommendation
+#com.google.android.projection.gearhead
+#com.google.android.webview
+#com.google.android.wifi.resources.overlay.common
+#com.google.android.wifi.resources.overlay.target
+#com.google.ar.core
 
-# 安全事件
-com.coloros.securityguard
-
-# 帮助与反馈
-com.coloros.operationManual
-
-# 号码归属地
-#com.oplus.phonenoareainquire
-
-# 数据基础服务
-com.oplus.statistics.rom
-
-# audiomonitor
-#com.oplus.audiomonitor
-
-# 遮罩
-#com.android.connectivity.resources.overlay.oplus
-
-# 耗电监控服务
-#com.oplus.powermonitor
-
-# SmartEngine
-#com.oplus.smartengine
-
-# AudioEffectCenter
-#com.oplus.audio.effectcenter
-
-# 屏幕录制
-#com.oplus.screenrecorder
-
-# 工程相机
-#com.oplus.engineercamera
-
-# 外设融合框架
-#com.oplus.vdc
+# 设备快连
+com.heytap.accessory
 
 # 浏览器
 com.heytap.browser
 
-# 智慧数据增强服务
-com.coloros.sceneservice
+# 云服务
+com.heytap.cloud
 
-# 动感画册
-#com.oplus.keyguard.clock.graffiti
+# 多彩引擎
+com.heytap.colorfulengine
 
-# 设备空间
-#com.heytap.mydevices
+# 移动服务
+com.heytap.htms
 
-# 速览(负一屏 + 桌面卡片)
-com.coloros.assistantscreen
-
-# privacy sandbox 组件
-com.android.ondevicepersonalization.services
-
-# 电池
-#com.oplus.battery
+# 软件商店
+com.heytap.market
 
 # 系统消息(oppo 推送)
-com.heytap.mcs
+#com.heytap.mcs
 
-# 遮罩
-#com.android.safetycenter.styles.overlay
+# 设备空间
+com.heytap.mydevices
 
-# 手机投屏
-#com.oplus.cast
+# OpenID
+com.heytap.openid
 
-# 屏幕共享(需要欢太账户登录)
-com.coloros.sharescreen
+# CarLink
+com.heytap.opluscarlink
 
-# 随身工作台(需要欢太账户登录)
-com.oplus.owork
+# 乐划锁屏
+com.heytap.pictorial
 
-# Nfc Engineer Test
-#com.oplus.nfcengineertest
-
-# Device Integration Service(Microsoft Link to Windows 相关)
-com.microsoft.deviceintegrationservice
-
-# 查找(需要欢太账户登录)
-com.coloros.findmyphone
-
-# virtualcomm2
-#com.oplus.virtualcomm2
-
-# Owk服务
-#com.oplus.owkservice
-
-# 相机
-#com.oplus.camera
-
-# 软件包安装程序
-#com.android.packageinstaller
-
-# 图片描述
-#com.oplus.viewtalk
-
-# 开机注册
-#com.coloros.bootreg
-
-# 子系统服务框架(依赖 com.oplus.virtualcomm)
-#com.oplus.subsys
-
-# 壁纸与个性化
-#com.oplus.uxdesign
-
-# Car+ 车联
-com.oplus.ocar
-
-# QualityProtect(系统日志相关)
-#com.oplus.qualityprotect
+# 全局搜索
+com.heytap.quicksearchbox
 
 # 小布助手
 com.heytap.speechassist
 
-# 语音设置
-com.yuemeng.speechsuite
+# 系统卡包
+com.heytap.tas
 
-# 智慧出行
-com.oplus.travelengine
+# 账号服务
+com.heytap.vip
 
-# 升级指南
-com.oplus.upgradeguide
+# 连接至 Windows
+com.microsoft.appmanager
 
-# soter-腾讯生物识别身份认证
-com.tencent.soter.soterserver
+# Device Integration Service
+com.microsoft.deviceintegrationservice
 
-# 更新服务
-#com.oplus.romupdate
+# Cross Device Broker
+com.microsoftsdk.crossdeviceservicebroker
 
-# SOS 紧急联络
-#com.oplus.sos
+# 快应用
+com.nearme.instant.platform
 
-# 遮罩-安全中心
-#com.google.android.overlay.gmsconfig.nosafetycenter
+# 新通话
+#com.newcall
+
+# @
+#com.newcall.overlay
+
+# 智慧云加速
+com.oplus.acc.gac
+
+# 账号中心
+com.oplus.account
+
+# AI 服务引擎(设置-AI-AI服务引擎)
+#com.oplus.aiunit
+
+# 智慧控件
+com.oplus.aiwidgets
+
+# 息屏
+#com.oplus.aod
+
+# 应用安装器
+com.oplus.appdetail
+
+# 应用服务
+#com.oplus.appplatform
 
 # 系统可卸载应用找回
 #com.oplus.apprecover
 
-# 遮罩-运营商配置
-#com.android.carrierconfig.oplus.overlay
+# Athena(后台进程管理器)
+#com.oplus.athena
 
-# 媒体控制
+# atlas service
+#com.oplus.atlas
+
+# AudioEffectCenter
+#com.oplus.audio.effectcenter
+
+# @
+#com.oplus.audiomonitor
+
+# 电池
+#com.oplus.battery
+
+# 无网畅聊
+com.oplus.beaconlink
+
+# 骚扰拦截
+#com.oplus.blacklistapp
+
+# PostEffect
+#com.oplus.blur
+
+# BTtestmode
+#com.oplus.bttestmode
+
+# 相机
+#com.oplus.camera
+
+# 数字车钥匙服务
+com.oplus.cardigitalkey
+
+# 手机投屏
+#com.oplus.cast
+
+# 图形增强服务
+#com.oplus.colorx
+
+# 应用增强服务
+#com.oplus.cosa
+
+# 配置更新
+#com.oplus.cota
+
+# CrashBox
+com.oplus.crashbox
+
+# CustCoreApp
+#com.oplus.customize.coreapp
+
+# 智慧能力服务
+#com.oplus.deepthinker
+
+# 跨设备文件管理
+#com.oplus.dfs
+
+# 融合搜索服务
+com.oplus.dmp
+
+# Eid-Service
+#com.oplus.eid
+
+# 私密保险箱
+com.oplus.encryption
+
+# 工程相机
+#com.oplus.engineercamera
+
+# 工程模式
+#com.oplus.engineermode
+
+# 通信网络工模
+#com.oplus.engineernetwork
+
+# Ether
+#com.oplus.ether
+
+# 手势体感服务
+#com.oplus.exserviceui
+
+# 系统服务
+#com.oplus.exsystemservice
+
+# 护眼模式
+#com.oplus.eyeprotect
+
+# @
+#com.oplus.framework.res.overlay
+
+# @
+#com.oplus.framework.rro.oneplus
+
+# @
+#com.oplus.framework_bluetooth.overlay
+
+# 手势体感
+#com.oplus.gesture
+
+# 健康数据平台
+#com.oplus.healthservice
+
+# 经典主题
+#com.oplus.keyguard.clock.base
+
+# 灵感相框
+#com.oplus.keyguard.clock.gallery
+
+# 动感画册
+#com.oplus.keyguard.clock.graffiti
+
+# 态度杂志
+#com.oplus.keyguard.clock.magazine
+
+# OplusLFEHer
+#com.oplus.lfeh
+
+# 设备互联服务
+#com.oplus.linker
+
+# 定位服务
+#com.oplus.location
+
+# 运营商位置信息
+#com.oplus.locationproxy
+
+# 反馈工具箱
+com.oplus.logkit
+
+# OplusMediaController
 #com.oplus.mediacontroller
+
+# MediaTurbo
+#com.oplus.mediaturbo
+
+# 智慧决策服务
+#com.oplus.metis
+
+# 应用分身
+#com.oplus.multiapp
+
+# 网络服务
+#com.oplus.nas
+
+# DSF
+#com.oplus.ndsf
+
+# NfcEngineerTest
+#com.oplus.nfcengineertest
+
+# 网络健康服务
+#com.oplus.nhs
+
+# 通知管理
+#com.oplus.notificationmanager
+
+# OplusNrModeControl(5G)
+#com.oplus.nrMode
+
+# OBrain
+#com.oplus.obrain
+
+# Car+ 车联
+com.oplus.ocar
+
+# Olc
+#com.oplus.olc
+
+# 头像象编辑软件
+com.oplus.omoji
+
+# OneTrace
+#com.oplus.onetrace
+
+# 软件更新
+#com.oplus.ota
+
+# @
+#com.oplus.overlay.comms
+
+# OVoiceManagerSkillService
+com.oplus.ovoicemanager
+
+# 语音唤醒服务
+com.oplus.ovoicemanager.wakeup
+
+# Owk服务
+#com.oplus.owkservice
+
+# 随身工作台
+com.oplus.owork
+
+# 服务治理框架
+#com.oplus.pantanal.ums
+
+# 安全支付
+com.oplus.pay
+
+# 号码归属地
+#com.oplus.phonenoareainquire
+
+# @
+#com.oplus.plugin
+
+# 人像绘影
+com.oplus.portrait
+
+# 诊断工具服务
+#com.oplus.postmanservice
+
+# 耗电监控服务
+#com.oplus.powermonitor
+
+# 多窗口
+#com.oplus.pscanvas
+
+# QualityProtect
+#com.oplus.qualityprotect
+
+# 更新服务
+#com.oplus.romupdate
+
+# 安全中心
+#com.oplus.safecenter
+
+# 系统升级服务
+#com.oplus.sau
+
+# SAUHelper
+#com.oplus.sauhelper
+
+# 屏幕录制
+#com.oplus.screenrecorder
+
+# 截屏
+#com.oplus.screenshot
+
+# 安全键盘
+#com.oplus.securitykeyboard
+
+# 权限管理
+#com.oplus.securitypermission
+
+# SmartEngine
+#com.oplus.smartengine
+
+# SOS 紧急联络
+#com.oplus.sos
+
+# 数据基础服务
+com.oplus.statistics.rom
+
+# StdSP Core
+#com.oplus.stdsp
+
+# 子系统服务框架
+#com.oplus.subsys
+
+# SystemUIPlugin
+#com.oplus.systemui.plugins
+
+# WifiQoe
+#com.oplus.tai.wifiqoe
+
+# 主题基础服务
+com.oplus.themestore
+
+# 智能应用检测
+com.oplus.thirdkit
+
+# 流量管理
+#com.oplus.trafficmonitor
+
+# 智慧出行
+com.oplus.travelengine
+
+# 百变引擎
+#com.oplus.uiengine
+
+# 升级指南
+com.oplus.upgradeguide
+
+# 壁纸与个性化
+#com.oplus.uxdesign
+
+# 外设融合框架
+#com.oplus.vdc
+
+# 图片描述
+#com.oplus.viewtalk
+
+# OplusVirtualComm
+#com.oplus.virtualcomm
+
+# @
+#com.oplus.virtualcomm2
+
+# 壁纸
+#com.oplus.wallpapers
+
+# WifiBackupRestore
+com.oplus.wifibackuprestore
+
+# 无线设置
+#com.oplus.wirelesssettings
+
+# 广告服务
+com.opos.ads
+
+# CTAutoRegist
+#com.oppo.ctautoregist
+
+# DeliverServer(快应用相关)
+com.oppo.instant.local.service
+
+#com.qti.dcf
+#com.qti.dpmserviceapp
+#com.qti.qcc
+#com.qti.qualcomm.datastatusnotification
+#com.qualcomm.atfwd
+#com.qualcomm.atfwd2
+#com.qualcomm.location
+#com.qualcomm.qcrilmsgtunnel
+#com.qualcomm.qti.cne
+#com.qualcomm.qti.devicestatisticsservice
+#com.qualcomm.qti.gpudrivers.sun.api35
+#com.qualcomm.qti.ims
+#com.qualcomm.qti.powersavemode
+#com.qualcomm.qti.qms.service.trustzoneaccess
+#com.qualcomm.qti.telephonyservice 
+#com.qualcomm.qti.uceShimService
+#com.qualcomm.qti.uim
+#com.qualcomm.qti.workloadclassifier
+#com.qualcomm.qti.xrcb
+#com.qualcomm.qti.xrvd.service
+#com.qualcomm.qti.xrwifi
+#com.qualcomm.timeservice
+#com.qualcomm.uimremoteclient
+#com.qualcomm.uimremoteserver
+#com.qualcomm.wfd.service
+
+# 智能识别陌生号码
+#com.ted.number
+
+# aidlserverdemo(soter 腾讯生物识别身份认证)
+com.tencent.soter.soterserver
+
+# WAPI证书
+#com.wapi.wapicertmanage
+
+# 语音设置
+#com.yuemeng.speechsuite
+
+# 安卓系统
+#oplus
+
+# @
+#oplus.frameworkres.overlay.display.product
+
+# @
+#org.codeaurora.ims
+
+#vendor.qti.bluetooth.xpan.overlay.target
+#vendor.qti.data.ntnsatapp
+#vendor.qti.data.txpwradmin
+#vendor.qti.hardware.cacert.server
+#vendor.qti.imsdatachannel
+#vendor.qti.imsrcs
+#vendor.qti.iwlan
+#vendor.qti.qesdk.sysservice

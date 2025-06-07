@@ -2,11 +2,17 @@
 # 无法使用 adb 卸载, 需要使用设备所有者权限进行隐藏
 # 例如 Hail, adb shell dpm set-device-owner com.aistra.hail/.receiver.DeviceAdminReceiver
 
-# 应用增强服务(游戏)
-com.oplus.cosa
+# 速览(负一屏 + 桌面卡片)
+com.coloros.assistantscreen
 
-# 全局搜索
-com.heytap.quicksearchbox
+# 查找
+com.coloros.findmyphone
+
+# 浏览器
+com.heytap.browser
+
+# 移动服务
+com.heytap.htms
 
 # 软件商店
 com.heytap.market
@@ -14,38 +20,23 @@ com.heytap.market
 # OpenID
 com.heytap.openid
 
+# 乐划锁屏
+com.heytap.pictorial
+
+# 全局搜索
+com.heytap.quicksearchbox
+
+# 系统卡包
+com.heytap.tas
+
+# 快应用
+com.nearme.instant.platform
+
+# 安全支付
+com.oplus.pay
+
 # 主题基础服务
 com.oplus.themestore
 
 # 广告服务
 com.opos.ads
-
-# 快应用
-com.nearme.instant.platform
-
-# OPPO 移动服务
-com.heytap.htms
-
-# 乐划锁屏
-com.heytap.pictorial
-
-# 安全支付
-com.oplus.pay
-
-# Olc(系统日志相关)
-#com.oplus.olc
-
-# 系统卡包
-com.heytap.tas
-
-# Assistant
-#com.coloros.lockassistant
-
-# 浏览器
-com.heytap.browser
-
-# 速览(负一屏 + 桌面卡片)
-com.coloros.assistantscreen
-
-# 查找(需要欢太账户登录)
-com.coloros.findmyphone
