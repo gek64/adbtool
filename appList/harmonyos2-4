@@ -548,28 +548,101 @@ com.tencent.qqlivehuawei
 #ohos.media.medialibrary
 
 
-# harmonyos3-4
+# huawei mate 40 harmonyos 4.2.0
 
-# 小艺输入法
-com.huawei.ohos.inputmethod
+#android.ext.shared
+#com.android.cellbroadcastservice
+#com.android.connectivity.resources
+#com.android.hotspot2.osulogin
+#com.android.networkstack.tethering.inprocess
+#com.android.printservice.recommendation
+#com.android.providers.media.module
+#com.android.wifi.resources
+#com.android.wifi.resources.overlay
 
-# 华为音乐
-com.huawei.music
+# 屏幕朗读
+com.bjbyhd.screenreader_huawei
 
-# 安全隐私中心
-#com.huawei.security.privacycenter
+# AutoRegSms
+#com.huawei.android.AutoRegSms
 
-# 安全隐私中心服务卡片
-com.huawei.ohos.security.privacycenter
+# UEInfoCheck
+#com.huawei.android.UEInfoCheck
 
-# 钱包服务卡片
-com.huawei.wallet.facard
+# 熄屏显示
+#com.huawei.aod
+
+# 日历
+#com.huawei.calendar
+
+# 联系人
+#com.huawei.contacts
+
+# 时钟
+#com.huawei.deskclock
+
+# 中转站
+#com.huawei.distributedpasteboard
+
+# 华为手写笔服务
+#com.huawei.featurelayer.sharedfeature.stylus
+
+# 应用助手
+com.huawei.gameassistant
+
+# Gateway
+#com.huawei.gateway
+
+# 智能信息
+com.huawei.hbm
 
 # 视频播放器
 com.huawei.himovie.local
 
+# @
+#com.huawei.hwbluetoothpencilmanager
+
+# 文件预览
+#com.huawei.hwpreview
+
+# iConnectUI
+#com.huawei.iconnect.ui
+
+# 超级壁纸
+#com.huawei.livewallpaper.paradise
+
+# 润泽
+#com.huawei.livewallpaper.ripplestone
+
+# 华为音乐
+com.huawei.music
+
 # 音乐播放器
 com.huawei.music.local
 
-# 智能信息
-com.huawei.hbm
+# 华为家庭存储同步服务
+com.huawei.nemo
+
+# CollaborationCenter
+#com.huawei.ohos.collaborationcenter
+
+# 小艺输入法
+com.huawei.ohos.inputmethod
+
+# 安全隐私中心服务卡片
+com.huawei.ohos.security.privacycenter
+
+# 图库
+#com.huawei.photos
+
+# HSDR
+#com.huawei.security.hsdr
+
+# 安全隐私中心
+#com.huawei.security.privacycenter
+
+# 手写笔悬浮窗
+#com.huawei.stylus.floatmenu
+
+# 钱包服务卡片
+com.huawei.wallet.facard

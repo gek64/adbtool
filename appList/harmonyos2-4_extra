@@ -1,0 +1,68 @@
+#!/usr/bin/env sh
+# adb shell pm disable-user --user 0 xxx
+
+# 无线投屏
+com.huawei.android.airsharing
+
+# 我的文件
+com.huawei.desktop.explorer
+
+# HiAI Base
+com.huawei.hiaction
+
+# 华为智慧引擎
+com.huawei.hiai
+
+# Huawei HiCar
+com.huawei.hicar
+
+# HiCard
+com.huawei.hicard
+
+# 云空间
+com.huawei.hidisk
+
+# 智慧生活基础服务
+com.huawei.hilink.framework
+
+# 智慧识屏
+com.huawei.hitouch
+
+# 智能检测
+com.huawei.hwdetectrepair
+
+# HwDiagnosis
+com.huawei.hwdiagnosis
+
+# 综合传感信息处理平台
+com.huawei.msdp
+
+# 服务中心
+com.huawei.ohos.famanager
+
+# 全局搜索数据服务
+com.huawei.ohos.search
+
+# 健康使用手机(无法 uninstall + disable)
+com.huawei.parentcontrol
+
+# 华为分享
+com.huawei.pcassistant
+
+# 华为智能建议
+com.huawei.pengine
+
+# HwHiAIDSEngine
+com.huawei.recsys
+
+# 智慧视觉
+com.huawei.scanner
+
+# 融合搜索服务
+com.huawei.searchservice
+
+# 智慧语音
+com.huawei.vassistant
+
+# 小艺输入法
+com.huawei.ohos.inputmethod
