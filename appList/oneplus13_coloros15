@@ -346,6 +346,9 @@ com.oplus.acc.gac
 # 账号中心
 com.oplus.account
 
+# 小布记忆
+com.oplus.aimemory
+
 # AI 服务引擎(设置-AI-AI服务引擎)
 #com.oplus.aiunit
 
@@ -583,6 +586,9 @@ com.oplus.portrait
 # QualityProtect
 #com.oplus.qualityprotect
 
+# 远程控制电脑
+com.oplus.remotecontrol
+
 # 更新服务
 #com.oplus.romupdate
 
@@ -610,6 +616,9 @@ com.oplus.portrait
 # SmartEngine
 #com.oplus.smartengine
 
+# 声音分轨
+#com.oplus.smartmediacontroller
+
 # SOS 紧急联络
 #com.oplus.sos
 
@@ -624,6 +633,9 @@ com.oplus.statistics.rom
 
 # SystemUIPlugin
 #com.oplus.systemui.plugins
+
+# BorderPreSearch
+#com.oplus.tai.borderpresearch
 
 # WifiQoe
 #com.oplus.tai.wifiqoe
