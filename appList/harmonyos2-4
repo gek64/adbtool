@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+# adbtool uninstall-user -u 0 -f harmonyos2-4
 
 #android
 #android.ext.services

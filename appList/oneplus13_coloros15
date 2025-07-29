@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+# adbtool uninstall-user -u 0 -f oneplus13_coloros15
 # https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json
 # 使用正则匹配查看 oplus|oppo|coloros|heytap|opos|^(?![\n /#]).*
 # 开发者选项中开启 禁止权限监控

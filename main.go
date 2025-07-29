@@ -21,6 +21,8 @@ var (
 	cliAll           bool
 	cliUID           int
 	cliFile          string
+	cliCompareFileA  string
+	cliCompareFileB  string
 )
 
 func main() {
@@ -237,6 +239,25 @@ func main() {
 				return run()
 			},
 		},
+		{
+			Name:  "compare",
+			Usage: "compare app files",
+			Flags: []cli.Flag{
+				&cli.StringFlag{
+					Name:        "a",
+					Usage:       "select compare app file a",
+					Destination: &cliCompareFileA,
+				},
+				&cli.StringFlag{
+					Name:        "b",
+					Usage:       "select compare app file b",
+					Destination: &cliCompareFileB,
+				},
+			},
+			Action: func(ctx *cli.Context) (err error) {
+				return Compare(cliCompareFileA, cliCompareFileB)
+			},
+		},
 	}
 
 	// 打印版本函数
@@ -246,7 +267,7 @@ func main() {
 
 	app := &cli.App{
 		Usage:    "ADB Batch Tool",
-		Version:  "v1.10",
+		Version:  "v1.20",
 		Commands: cmds,
 	}
 

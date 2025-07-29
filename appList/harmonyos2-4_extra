@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# adb shell pm disable-user --user 0 xxx
+# adbtool disable-user -u 0 -f harmonyos2-4_extra
 
 # 无线投屏
 com.huawei.android.airsharing

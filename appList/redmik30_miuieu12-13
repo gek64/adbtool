@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+# adbtool disable-user -u 0 -f redmik30_miuieu12-13
 
 # 小米互联通信服务
 com.xiaomi.mi_connect_service
