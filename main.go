@@ -246,11 +246,13 @@ func main() {
 				&cli.StringFlag{
 					Name:        "a",
 					Usage:       "select compare app file a",
+					Required:    true,
 					Destination: &cliCompareFileA,
 				},
 				&cli.StringFlag{
 					Name:        "b",
 					Usage:       "select compare app file b",
+					Required:    true,
 					Destination: &cliCompareFileB,
 				},
 			},
