@@ -28,7 +28,7 @@ adbtool uninstall-user -u 0 -f app.txt
 ```sh
 # system is linux(debian,redhat linux,ubuntu,fedora...) and arch is amd64
 curl -Lo /usr/local/bin/adbtool https://github.com/gek64/adbtool/releases/latest/download/adbtool-linux-amd64
-chmod +x /usr/local/bin/netinfo
+chmod +x /usr/local/bin/adbtool
 ```
 
 ## Compile
