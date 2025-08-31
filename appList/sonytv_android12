@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 # https://github.com/Generator/Awesome-Android-TV-FOSS-Apps
+# adb connect 192.168.1.182
 
 # Android 系统
 #android
