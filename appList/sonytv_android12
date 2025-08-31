@@ -1,0 +1,629 @@
+#!/usr/bin/env sh
+# https://github.com/Generator/Awesome-Android-TV-FOSS-Apps
+
+# Android 系统
+#android
+
+# ?
+#android.auto_generated_rro_product__
+
+# Android Services Library
+#android.ext.services
+
+# Android Shared Library
+#android.ext.shared
+
+# ?
+#com.android.backupconfirm
+
+# 蓝牙
+#com.android.bluetooth
+
+# CaptivePortalLogin
+#com.android.captiveportallogin
+
+# 证书安装程序
+#com.android.certinstaller
+
+# 配套设备管理器
+#com.android.companiondevicemanager
+
+# 系统网络连接资源
+#com.android.connectivity.resources
+
+# ?
+#com.android.connectivity.resources.rro
+
+# ?
+#com.android.cts.ctsshim
+
+# ?
+#com.android.cts.priv.ctsshim
+
+# 基本互动屏保
+#com.android.dreams.basic
+
+# Dynamic System Updates
+#com.android.dynsystem
+
+# 外部存储设备
+#com.android.externalstorage
+
+# OsuLogin
+#com.android.hotspot2.osulogin
+
+# HTML 查看程序
+#com.android.htmlviewer
+
+# 输入设备
+#com.android.inputdevices
+
+# 密钥链
+#com.android.keychain
+
+# ?
+#com.android.localtransport
+
+# 一体化位置信息
+#com.android.location.fused
+
+# 工作设置
+#com.android.managedprovisioning
+
+# Module Metadata
+#com.android.modulemetadata
+
+# 网络管理器
+#com.android.networkstack.inprocess
+
+# ?
+#com.android.networkstack.permissionconfig
+
+# Tethering
+#com.android.networkstack.tethering.inprocess
+
+# ?
+#com.android.networkstack.tethering.inprocess.rro
+
+# ?
+#com.android.networkstack.tethering.rro
+
+# 软件包安装程序
+#com.android.packageinstaller
+
+# PacProcessor
+#com.android.pacprocessor
+
+# 权限控制器
+#com.android.permissioncontroller
+
+# 打印处理服务
+#com.android.printspooler
+
+# 日历存储
+#com.android.providers.calendar
+
+# 联系人存储
+#com.android.providers.contacts
+
+# 内容下载管理器
+#com.android.providers.downloads
+
+# ?
+#com.android.providers.media
+
+# 媒体存储设备
+#com.android.providers.media.module
+
+# 设置存储
+#com.android.providers.settings
+
+# ?
+#com.android.providers.settings.auto_generated_rro_product__
+
+# TV Storage
+#com.android.providers.tv
+
+# 用户字典
+#com.android.providers.userdictionary
+
+# ProxyHandler
+#com.android.proxyhandler
+
+# SecureElementApplication
+#com.android.se
+
+# Settings Suggestions
+#com.android.settings.intelligence
+
+# ?
+#com.android.sharedstoragebackup
+
+# Shell
+#com.android.shell
+
+# 声音
+#com.android.soundpicker
+
+# Intent Filter Verification Service
+#com.android.statementservice
+
+# 系统界面
+#com.android.systemui
+
+# Activity Stub
+#com.android.tv.frameworkpackagestubs
+
+# ?
+#com.android.tv.overlay.networkstack
+
+# ?
+#com.android.tv.overlay.settingsprovider
+
+# 设置
+#com.android.tv.settings
+
+# ?
+#com.android.tv.settings.google.resoverlay
+
+# ?
+#com.android.tv.settings.vendor.resoverlay
+
+# VpnDialogs
+#com.android.vpndialogs
+
+# ?
+#com.android.wallpaperbackup
+
+# 系统 WLAN 资源
+#com.android.wifi.resources
+
+# ?
+#com.android.wifi.resources.rro
+
+# 电视桌面(当贝)
+com.dangbei.TVHomeLauncher
+
+# DolbyAudioService
+#com.dolby.android.audio.service
+
+# ?
+#com.google.android.overlay.googlewebview
+
+# 设置向导
+#com.google.android.tungsten.setupwraith
+
+# Android TV Remote Service
+#com.google.android.tv.remote.service
+
+# Android System WebView
+#com.google.android.webview
+
+# SmartService
+#com.jd.smartservicetwo
+
+# NewTV极光
+com.ktcp.tvvideo
+
+# TVRemote service
+#com.mediatek.agent
+
+# ?
+#com.mediatek.backgrounddetection
+
+# DMRemote service
+#com.mediatek.dmagent
+
+# Wifi monitor service
+#com.mediatek.network
+
+# Qterics Product Kit
+#com.qterics.da.product
+
+# 应用中心
+com.sony.dangbeimarket
+
+# ?
+#com.sony.dtv.accessibilityshortcutframeworkoverlay
+
+# 音效自动校准
+#com.sony.dtv.acousticautocalibration
+
+# 应用助手
+#com.sony.dtv.appassistant
+
+# AudioOutputService
+#com.sony.dtv.audiooutput
+
+# AudioSystemInfoProvider
+#com.sony.dtv.audiosysteminfoprovider
+
+# B2bAdminPassword
+#com.sony.dtv.b2b.adminpassword
+
+# Device Admin Settings
+#com.sony.dtv.b2b.deviceadminsettings
+
+# B2bFrameworkExtension
+#com.sony.dtv.b2b.frameworkextension
+
+# Pro Mode
+#com.sony.dtv.b2b.hotelmode
+
+# ImportExport
+#com.sony.dtv.b2b.importexport
+
+# IpControlSettings
+#com.sony.dtv.b2b.ipcontrolsettings
+
+# NodeRuntimeNormal
+#com.sony.dtv.b2b.noderuntime.normal
+
+# NodeRuntimePrivilege
+#com.sony.dtv.b2b.noderuntime.privilege
+
+# NodeRuntimeExtension_BPK
+#com.sony.dtv.b2b.noderuntimeextension.bpk
+
+# NodeRuntimeExtension_Node_20_11_1
+#com.sony.dtv.b2b.noderuntimeextension.node_20_11_1
+
+# ProSettings
+#com.sony.dtv.b2b.prosettings
+
+# RS232C Support
+#com.sony.dtv.b2b.rs232csupport
+
+# B2bSoftAP
+#com.sony.dtv.b2b.softap
+
+# Vendor Protocol Service
+#com.sony.dtv.b2b.vendorprotocol
+
+# webappruntimedrm
+#com.sony.dtv.b2b.webappruntimedrm
+
+# BRAVIA屏保
+#com.sony.dtv.braviashow
+
+# ?
+#com.sony.dtv.braviasyncmenu
+
+# BraviaSyncService
+#com.sony.dtv.braviasyncservice
+
+# BRAVIA Sync 设定
+#com.sony.dtv.braviasyncsetting
+
+# ?
+#com.sony.dtv.broadcastclock.broadcastrequirementcontrol
+
+# ?
+#com.sony.dtv.broadcastclock.clocksyncservice
+
+# BroadcastServiceSetup
+#com.sony.dtv.broadcastservicesetup
+
+# WebAppPlatform
+#com.sony.dtv.browser.webappplatform
+
+# WebAppRuntime
+#com.sony.dtv.browser.webappruntime
+
+# WebAppRuntimeExtension
+#com.sony.dtv.browser.webappruntimeextension
+
+# WebAppService
+#com.sony.dtv.browser.webappservice
+
+# CI Tool
+#com.sony.dtv.citool
+
+# 文本放大
+#com.sony.dtv.common.base.AccessibilityText
+
+# DirectSettings
+#com.sony.dtv.configsettings
+
+# 外部设备设置
+#com.sony.dtv.connecteddevicesettings
+
+# ?
+#com.sony.dtv.controlproxy
+
+# CountrySettings
+#com.sony.dtv.countrysetting
+
+# ?
+#com.sony.dtv.customersupport
+
+# ?
+#com.sony.dtv.customersupport.provider.res
+
+# 远程支持
+#com.sony.dtv.da.service
+
+# DemoSupport
+#com.sony.dtv.demosupport
+
+# DemoSystemSupport
+#com.sony.dtv.demosystemsupport
+
+# DeviceControlService
+#com.sony.dtv.devicecontrolservice
+
+# DhcpOpHostNameOverlay
+#com.sony.dtv.dhcpophostname.overlay
+
+# 过近提醒
+#com.sony.dtv.distancealert
+
+# 节能控制面板
+#com.sony.dtv.ecodashboard
+
+# 声明和许可
+#com.sony.dtv.eulaviewer
+
+# BraviaFrmApp
+#com.sony.dtv.frame
+
+# 手势控制
+#com.sony.dtv.gestureapp
+
+# ?
+#com.sony.dtv.globalkeyoverlay
+
+# HddManager
+#com.sony.dtv.hddmgr
+
+# HelpGuideContents
+#com.sony.dtv.helpguidecontents
+
+# SonyAccount
+#com.sony.dtv.homeaccount
+
+# HomeNetworkSettings
+#com.sony.dtv.homenetwork
+
+# HomeTheatreControl
+#com.sony.dtv.HomeTheatreControl
+
+# HRTF Settings
+#com.sony.dtv.hrtfsettings
+
+# 多语言键盘
+#com.sony.dtv.ime.chww
+
+# ImeProxy
+#com.sony.dtv.imeproxy
+
+# InteractiveTvUtil
+#com.sony.dtv.interactivetvutil
+
+# ?
+#com.sony.dtv.interactivetvutil.output
+
+# 智能家居
+#com.sony.dtv.iot
+
+# IRBlaster Native
+#com.sony.dtv.irblaster
+
+# IrbService
+#com.sony.dtv.irbservice
+
+# ISWAccessibility
+#com.sony.dtv.iswaccessibility
+
+# ISW Power SavingSettings
+#com.sony.dtv.iswpowersavingsettings
+
+# KidsProfileAdapter
+#com.sony.dtv.kidsprofileadapter
+
+# LastAccess
+#com.sony.dtv.lastaccess
+
+# 生活空间装饰
+#com.sony.dtv.livingfit
+
+# ?
+#com.sony.dtv.localepicker
+
+# 演示应用程序
+#com.sony.dtv.multiscreendemo
+
+# 会员尊享
+com.sony.dtv.mysony
+
+# NetworkSettings
+#com.sony.dtv.networksettings
+
+# InProcessNetworkStackOverlay
+#com.sony.dtv.networkstack.inprocess.overlay
+
+# BRAVIA 通知
+#com.sony.dtv.notificationcenter
+
+# OndService
+#com.sony.dtv.ondservice
+
+# 音乐
+#com.sony.dtv.osat.music
+
+# OsdPlaneVisibilityManager
+#com.sony.dtv.osdplanevisibilitymanager
+
+# OtaUrlProvisioning
+#com.sony.dtv.otaurlprovisioning
+
+# PanelSettings
+#com.sony.dtv.panelsettings
+
+# 家长控制器
+#com.sony.dtv.parentalcontrolsettings
+
+# PartnerKeyCN
+#com.sony.dtv.partnerkeycn
+
+# Ambient Sensing App
+#com.sony.dtv.pictureaudio.autoadjustsettings
+
+# PreInAppFiltering
+#com.sony.dtv.preinappfiltering
+
+# PrivacyPolicy
+#com.sony.dtv.privacypolicy
+
+# ModelvariationProvider
+#com.sony.dtv.provider.modelvariation
+
+# Quick Setup
+#com.sony.dtv.quicksetup
+
+# QuickSetupCustomizer
+#com.sony.dtv.QuickSetupCustomizer
+
+# 已录制标题列表
+#com.sony.dtv.recapp
+
+# 提醒
+#com.sony.dtv.reminderservice
+
+# 遥控器
+#com.sony.dtv.remotecontrolsettings
+
+# 搜索应用
+#com.sony.dtv.searchapp
+
+# SecondDisplay
+#com.sony.dtv.seconddispsetting
+
+# SonyAuthenticator
+#com.sony.dtv.seeds.auth
+
+# SensingCameraFWUpdate
+#com.sony.dtv.sensingcamera.fwupdate
+
+# SensingCameraSettings
+#com.sony.dtv.sensingcamera.settings
+
+# SFS Service
+#com.sony.dtv.sensingfusionservice
+
+# ?
+#com.sony.dtv.serviceinformation
+
+# ServiceMode
+#com.sony.dtv.servicemode
+
+# ?
+#com.sony.dtv.settings
+
+# ?
+#com.sony.dtv.settings.overlay
+
+# SonySettingsProvider
+#com.sony.dtv.settingsprovider
+
+# 帮助
+#com.sony.dtv.smarthelp
+
+# 媒体播放器
+#com.sony.dtv.smartmediaapp
+
+# Sony 法律信息
+#com.sony.dtv.softwarelicense
+
+# SonyBugreportSys
+#com.sony.dtv.sonybugreportsys
+
+# SonyLogLevelSettingSys
+#com.sony.dtv.sonyloglevelsettingsys
+
+# ?
+#com.sony.dtv.sonyprofilelock
+
+# SonySystemService
+#com.sony.dtv.sonysystemservice
+
+# SonyVendorService
+#com.sony.dtv.sonyvendorservice
+
+# Control Proxy
+#com.sony.dtv.systemcontrolproxy
+
+# 系统软件更新
+#com.sony.dtv.systemupdate
+
+# 计时器和时钟
+#com.sony.dtv.timers
+
+# TvApiService
+#com.sony.dtv.tvapi
+
+# ExternalInputServices
+#com.sony.dtv.tvinput.external
+
+# HardwareManagerService
+#com.sony.dtv.tvinput.hardwaremanager
+
+# BRAVIA TV Storage
+#com.sony.dtv.tvinput.provider
+
+# DvbTunerInputService
+#com.sony.dtv.tvinput.tuner
+
+# TvPosition
+#com.sony.dtv.tvpositionscreen
+
+# TvSettingsBroadcast
+#com.sony.dtv.tvsettingsbroadcast
+
+# 电视
+#com.sony.dtv.tvx
+
+# ?
+#com.sony.dtv.tvx.overlay.sortui
+
+# Update
+#com.sony.dtv.update
+
+# UpgradeSetup
+#com.sony.dtv.upgradesetup
+
+# UsbMsgService
+#com.sony.dtv.usbmsgservice
+
+# UserContext
+#com.sony.dtv.usercontext
+
+# VideoChatRecord
+#com.sony.dtv.videochatrecord
+
+# Voice Search
+#com.sony.dtv.voicesearch
+
+# WebApiCore
+#com.sony.dtv.webapi.core
+
+# ServiceWifiResourcesOverlay
+#com.sony.dtv.wifi.resources.overlay
+
+# HueyModule
+#com.sony.huey.dlna.module
+
+# HueyDMRSettings
+#com.sony.huey.dlna.renderersettings
+
+# 设备
+#com.sonyericsson.dlna
+
+# In Device Diagnostics
+#com.sonyericsson.idd.agent
+
+# Quickset SDK
+#com.uei.quicksetsdk.sony
+
+# mtktvapi_agent
+#mtktvapi.agent
