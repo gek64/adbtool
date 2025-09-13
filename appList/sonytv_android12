@@ -628,3 +628,7 @@ com.sony.dtv.mysony
 
 # mtktvapi_agent
 #mtktvapi.agent
+
+# sony xr-75x91j
+# 乐播投屏
+com.hpplay.happyplay.aw
