@@ -296,7 +296,7 @@ com.heytap.htms
 # 软件商店
 com.heytap.market
 
-# 系统消息(oppo 推送)
+# 系统消息(oppo 推送, 通知中关闭精彩推荐)
 #com.heytap.mcs
 
 # 设备空间
