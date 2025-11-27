@@ -27,7 +27,7 @@ adbtool uninstall-user -u 0 -f app.txt
 
 ```sh
 # system is linux(debian,redhat linux,ubuntu,fedora...) and arch is amd64
-curl -Lo /usr/local/bin/adbtool https://github.com/gek64/adbtool/releases/latest/download/adbtool-linux-amd64
+curl -Lo /usr/local/bin/adbtool https://github.com/unix755/adbtool/releases/latest/download/adbtool-linux-amd64
 chmod +x /usr/local/bin/adbtool
 ```
 
@@ -36,7 +36,7 @@ chmod +x /usr/local/bin/adbtool
 ### How to compile if prebuilt binaries are not found
 
 ```sh
-git clone https://github.com/gek64/adbtool.git
+git clone https://github.com/unix755/adbtool.git
 cd adbtool
 export CGO_ENABLED=0
 go build -v -trimpath -ldflags "-s -w"

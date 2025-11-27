@@ -1,11 +1,13 @@
 package main
 
 import (
+	"context"
 	"errors"
 	"fmt"
-	"github.com/urfave/cli/v2"
 	"log"
 	"os"
+
+	"github.com/urfave/cli/v3"
 )
 
 var (
@@ -44,7 +46,7 @@ func main() {
 					Destination: &cliFile,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				cliClear = true
 				return run()
 			},
@@ -66,7 +68,7 @@ func main() {
 					Destination: &cliFile,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				cliUninstall = true
 				return run()
 			},
@@ -95,7 +97,7 @@ func main() {
 					Destination: &cliFile,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				cliUninstallUser = true
 				return run()
 			},
@@ -117,7 +119,7 @@ func main() {
 					Destination: &cliFile,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				cliReinstall = true
 				return run()
 			},
@@ -139,7 +141,7 @@ func main() {
 					Destination: &cliFile,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				cliDisable = true
 				return run()
 			},
@@ -168,7 +170,7 @@ func main() {
 					Destination: &cliFile,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				cliDisableUser = true
 				return run()
 			},
@@ -190,7 +192,7 @@ func main() {
 					Destination: &cliFile,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				cliEnable = true
 				return run()
 			},
@@ -212,7 +214,7 @@ func main() {
 					Destination: &cliFile,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				cliSuspend = true
 				return run()
 			},
@@ -234,7 +236,7 @@ func main() {
 					Destination: &cliFile,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				cliUnsuspend = true
 				return run()
 			},
@@ -256,24 +258,24 @@ func main() {
 					Destination: &cliCompareFileB,
 				},
 			},
-			Action: func(ctx *cli.Context) (err error) {
+			Action: func(ctx context.Context, cmd *cli.Command) (err error) {
 				return Compare(cliCompareFileA, cliCompareFileB)
 			},
 		},
 	}
 
 	// 打印版本函数
-	cli.VersionPrinter = func(cCtx *cli.Context) {
-		fmt.Printf("%s", cCtx.App.Version)
+	cli.VersionPrinter = func(cmd *cli.Command) {
+		fmt.Printf("%s\n", cmd.Root().Version)
 	}
 
-	app := &cli.App{
+	cmd := &cli.Command{
 		Usage:    "ADB Batch Tool",
-		Version:  "v1.20",
+		Version:  "v1.30",
 		Commands: cmds,
 	}
 
-	err := app.Run(os.Args)
+	err := cmd.Run(context.Background(), os.Args)
 	if err != nil {
 		log.Fatal(err)
 	}

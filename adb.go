@@ -3,11 +3,12 @@ package main
 import (
 	"bufio"
 	"bytes"
-	"github.com/gek64/gek/gExec"
 	"os"
 	"os/exec"
 	"strconv"
 	"strings"
+
+	"github.com/unix755/xtools/xExec"
 )
 
 // GetAppsFromFile 从文件中读取 APP 列表, 排除包名前的注释
@@ -90,37 +91,37 @@ func GetAppListFromADB() (apps []string, err error) {
 }
 
 func PMClear(app string) error {
-	return gExec.Run(exec.Command("adb", "shell", "pm", "clear", app))
+	return xExec.Run(exec.Command("adb", "shell", "pm", "clear", app))
 }
 
 func PMUninstall(app string) error {
-	return gExec.Run(exec.Command("adb", "shell", "pm", "uninstall", app))
+	return xExec.Run(exec.Command("adb", "shell", "pm", "uninstall", app))
 }
 
 func PMUninstallUser(app string, uid int) error {
-	return gExec.Run(exec.Command("adb", "shell", "pm", "uninstall", "--user", strconv.Itoa(uid), app))
+	return xExec.Run(exec.Command("adb", "shell", "pm", "uninstall", "--user", strconv.Itoa(uid), app))
 }
 
 func PMReinstall(app string) error {
-	return gExec.Run(exec.Command("adb", "shell", "cmd", "package", "install-existing", app))
+	return xExec.Run(exec.Command("adb", "shell", "cmd", "package", "install-existing", app))
 }
 
 func PMDisable(app string) error {
-	return gExec.Run(exec.Command("adb", "shell", "pm", "disable", app))
+	return xExec.Run(exec.Command("adb", "shell", "pm", "disable", app))
 }
 
 func PMDisableUser(app string, uid int) error {
-	return gExec.Run(exec.Command("adb", "shell", "pm", "disable-user", "--user", strconv.Itoa(uid), app))
+	return xExec.Run(exec.Command("adb", "shell", "pm", "disable-user", "--user", strconv.Itoa(uid), app))
 }
 
 func PMEnable(app string) error {
-	return gExec.Run(exec.Command("adb", "shell", "pm", "enable", app))
+	return xExec.Run(exec.Command("adb", "shell", "pm", "enable", app))
 }
 
 func PMSuspend(app string) error {
-	return gExec.Run(exec.Command("adb", "shell", "pm", "suspend", app))
+	return xExec.Run(exec.Command("adb", "shell", "pm", "suspend", app))
 }
 
 func PMUnsuspend(app string) error {
-	return gExec.Run(exec.Command("adb", "shell", "pm", "unsuspend", app))
+	return xExec.Run(exec.Command("adb", "shell", "pm", "unsuspend", app))
 }
